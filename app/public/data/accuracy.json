@@ -1,0 +1,38 @@
+{
+  "source_url": "https://atharva-729.github.io/bookshelf-benchmark/",
+  "dataset": {
+    "photos": 6,
+    "labelled_titles": 295
+  },
+  "opus_run2": {
+    "experiment": "claude-opus-5.5__high",
+    "model": "Claude Opus 5.5",
+    "mode": "high",
+    "reply_readable": "True",
+    "relabelled": "",
+    "missing_images": "0",
+    "duplicates_removed": "0",
+    "tp": "241",
+    "fp": "8",
+    "fn": "54",
+    "precision": "0.968",
+    "recall": "0.817",
+    "f1": "0.886",
+    "macro_f1": "0.891",
+    "easy_f1": "0.927",
+    "medium_f1": "0.970",
+    "hard_f1": "0.829",
+    "author_accuracy": "0.980"
+  },
+  "flash_easy_run2": {
+    "f1": 0.935,
+    "note": "Pooled easy-shelf F1, extended thinking. Opus high easy F1 was 0.927."
+  },
+  "limitations": [
+    "The benchmark used consumer chat apps; these scores do not measure this API crop harness.",
+    "The proposed zoom harness was not tested in the report. Its accuracy must be measured separately.",
+    "Only six photos and at most two runs; small gaps and apparent precision are uncertain.",
+    "A title absent from the frozen answer key is not necessarily a hallucination."
+  ],
+  "replay_policy": "Use Flash extended thinking for easy shelves, Opus high for medium shelves, and the Opus high single-photo experiment for hard shelves. Selected by difficulty-level results, not per-photo best scores."
+}

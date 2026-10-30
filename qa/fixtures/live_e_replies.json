@@ -1,0 +1,604 @@
+{
+  "provenance": "Recorded replies for public benchmark e.jpg supplied by the user; personal/run identifiers, usage, credentials and image data omitted.",
+  "baseline_metrics": {
+    "planogram_expected_items": 110,
+    "shelf_items_detected": 190,
+    "matched_count": 75,
+    "catalogue_matched_count": 96,
+    "missing_count": 15,
+    "misplaced_count": 1,
+    "review_count": 170,
+    "planogram_compliance_pct": 68.2
+  },
+  "audit": {
+    "status": "complete",
+    "image_size": [
+      4284,
+      5712
+    ],
+    "tiles": [
+      {
+        "id": "tile-1",
+        "bounds": [
+          0,
+          0,
+          1400,
+          1400
+        ]
+      },
+      {
+        "id": "tile-2",
+        "bounds": [
+          1120,
+          0,
+          2520,
+          1400
+        ]
+      },
+      {
+        "id": "tile-3",
+        "bounds": [
+          2240,
+          0,
+          3640,
+          1400
+        ]
+      },
+      {
+        "id": "tile-4",
+        "bounds": [
+          2884,
+          0,
+          4284,
+          1400
+        ]
+      },
+      {
+        "id": "tile-5",
+        "bounds": [
+          0,
+          1120,
+          1400,
+          2520
+        ]
+      },
+      {
+        "id": "tile-6",
+        "bounds": [
+          1120,
+          1120,
+          2520,
+          2520
+        ]
+      },
+      {
+        "id": "tile-7",
+        "bounds": [
+          2240,
+          1120,
+          3640,
+          2520
+        ]
+      },
+      {
+        "id": "tile-8",
+        "bounds": [
+          2884,
+          1120,
+          4284,
+          2520
+        ]
+      },
+      {
+        "id": "tile-9",
+        "bounds": [
+          0,
+          2240,
+          1400,
+          3640
+        ]
+      },
+      {
+        "id": "tile-10",
+        "bounds": [
+          1120,
+          2240,
+          2520,
+          3640
+        ]
+      },
+      {
+        "id": "tile-11",
+        "bounds": [
+          2240,
+          2240,
+          3640,
+          3640
+        ]
+      },
+      {
+        "id": "tile-12",
+        "bounds": [
+          2884,
+          2240,
+          4284,
+          3640
+        ]
+      },
+      {
+        "id": "tile-13",
+        "bounds": [
+          0,
+          3360,
+          1400,
+          4760
+        ]
+      },
+      {
+        "id": "tile-14",
+        "bounds": [
+          1120,
+          3360,
+          2520,
+          4760
+        ]
+      },
+      {
+        "id": "tile-15",
+        "bounds": [
+          2240,
+          3360,
+          3640,
+          4760
+        ]
+      },
+      {
+        "id": "tile-16",
+        "bounds": [
+          2884,
+          3360,
+          4284,
+          4760
+        ]
+      },
+      {
+        "id": "tile-17",
+        "bounds": [
+          0,
+          4312,
+          1400,
+          5712
+        ]
+      },
+      {
+        "id": "tile-18",
+        "bounds": [
+          1120,
+          4312,
+          2520,
+          5712
+        ]
+      },
+      {
+        "id": "tile-19",
+        "bounds": [
+          2240,
+          4312,
+          3640,
+          5712
+        ]
+      },
+      {
+        "id": "tile-20",
+        "bounds": [
+          2884,
+          4312,
+          4284,
+          5712
+        ]
+      }
+    ],
+    "calls": [
+      {
+        "tile_id": "tile-1",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"MATHEMATICS\",\"author\":null,\"visible_text\":\"HEMATICS\",\"uncertain\":true,\"box\":{\"top\":0.932,\"left\":0.0,\"width\":0.245,\"height\":0.053}}]}"
+      },
+      {
+        "tile_id": "tile-2",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": []}"
+      },
+      {
+        "tile_id": "tile-3",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[]}"
+      },
+      {
+        "tile_id": "tile-4",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"JOHN GRISHAM\",\"author\":null,\"visible_text\":\"JOHN GRISHAM\",\"uncertain\":true,\"box\":{\"top\":0.83,\"left\":0.007,\"width\":0.443,\"height\":0.17}}]}"
+      },
+      {
+        "tile_id": "tile-5",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Mathematics\", \"author\": null, \"visible_text\": \"HEMATICS\", \"uncertain\": false, \"box\": {\"top\": 128, \"left\": 0, \"width\": 236, \"height\": 34}}, {\"title\": \"Social Science Class 10\", \"author\": null, \"visible_text\": \"Social Science Class 10\", \"uncertain\": false, \"box\": {\"top\": 194, \"left\": 55, \"width\": 213, \"height\": 22}}, {\"title\": \"Concise Chemistry I.C.S.E\", \"author\": null, \"visible_text\": \"CISE CHEMISTRY I.C.S.E.\", \"uncertain\": false, \"box\": {\"top\": 218, \"left\": 5, \"width\": 240, \"height\": 45}}, {\"title\": \"Volume 3rd Edition\", \"author\": null, \"visible_text\": \"Volume 3rd Edition\", \"uncertain\": false, \"box\": {\"top\": 257, \"left\": 66, \"width\": 286, \"height\": 21}}, {\"title\": \"Harry Potter and the Goblet of Fire\", \"author\": \"J.K. Rowling\", \"visible_text\": \"HARRY POTTER and the Goblet of Fire\", \"uncertain\": false, \"box\": {\"top\": 322, \"left\": 402, \"width\": 435, \"height\": 116}}, {\"title\": \"Make Brilliant V\", \"author\": null, \"visible_text\": \"Make Brilliant V\", \"uncertain\": true, \"box\": {\"top\": 381, \"left\": 0, \"width\": 249, \"height\": 55}}, {\"title\": \"After You\", \"author\": \"Jojo Moyes\", \"visible_text\": \"after you\", \"uncertain\": false, \"box\": {\"top\": 427,      \n        \"left\": 361, \"width\": 482, \"height\": 77}}, {\"title\": \"Calculus\", \"author\": null, \"visible_text\": \"Calculus\", \"uncertain\": false, \"box\": {\"top\": 434, \"left\": 0, \"width\": 121, \"height\": 30}}, {\"title\": \"Secondary School Mathematics\", \"author\": null, \"visible_text\": \"SECONDARY SCHOOL HEMATICS\", \"uncertain\": false, \"box\": {\"top\": 472, \"left\": 0, \"width\": 253, \"height\": 93}}, {\"title\": \"The Giver of Stars\", \"author\": \"Jojo Moyes\", \"visible_text\": \"The Giver of Stars\", \"uncertain\": false, \"box\": {\"top\": 499, \"left\": 366, \"width\": 542, \"height\": 89}}, {\"title\": \"Mathematics\", \"author\": null, \"visible_text\": \"Mathematics\", \"uncertain\": false, \"box\": {\"top\": 566, \"left\": 0, \"width\": 256, \"height\": 98}}, {\"title\": \"Still Me\", \"author\": \"Jojo Moyes\", \"visible_text\": \"Still Me\", \"uncertain\": false, \"box\": {\"top\": 599, \"left\": 352, \"width\": 477, \"height\": 84}}, {\"title\": \"The Mayor of Casterbridge\", \"author\": \"Thomas Hardy\", \"visible_text\": \"THE MAYOR OF CASTERBRIDGE\", \"uncertain\": false, \"box\": {\"top\": 841, \"left\": 501, \"width\": 419, \"height\": 53}}, {\"title\": \"Silas Marner\", \"author\": \"Eliot\", \"visible_text\": \"SILAS MARNER\", \"uncertain\": false, \"box\": {\"top\": 890, \"left\": 476, \"width\": 444, \"height\": 48}}, {\"title\": \"In the Fifth at Malory Towers\", \"author\": \"Enid Blyton\", \"visible_text\": \"In the Fifth Malory Towers\", \"uncertain\": false, \"box\": {\"top\": 930, \"left\": 478, \"width\": 434, \"height\": 37}}, {\"title\": \"First Term at Malory Towers\", \"author\": \"Enid Blyton\", \"visible_text\": \"First Term Malory Towers\", \"uncertain\": false, \"box\": {\"top\": 959, \"left\": 444, \"width\": 433, \"height\": 35}}]}"
+      },
+      {
+        "tile_id": "tile-6",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Stephen King: The Dark Tower Vol. VII\", \"author\": \"Stephen King\", \"visible_text\": \"STEPHEN THE DARK TOWER Vol VII\", \"uncertain\": false, \"box\": {\"top\": 349, \"left\": 781, \"width\": 0.219, \"height\": 0.125}}, {\"title\": \"upanishads\", \"author\": null, \"visible_text\": \"\\u0909\\u0928\\u093F\\u0937\\u0926\\u094B\\u0902\", \"uncertain\": true, \"box\": {\"top\": 472,         \n\"left\": 0.824, \"width\": 0.176, \"height\": 0.021}}, {\"title\": \"Atomic Habits\", \"author\": null, \"visible_text\": \"Atomic\", \"uncertain\": false, \"box\": {\"top\": 491, \"left\": 831, \"width\": 0.169, \"height\": 0.063}}, {\"title\": \"Glitter Fairy\", \"author\": \"Daisy Meadows\", \"visible_text\": \"GLITTER FAIRY\", \"uncertain\": false, \"box\": {\"top\": 501, \"left\": 154, \"width\": 0.463, \"height\": 0.019}}, {\"title\": \"Dirty Bertie: Worms!\", \"author\": \"Roberts \\u2022 MacDonald\", \"visible_text\": \"DIRTY BERTIE WORMS!\", \"uncertain\": false, \"box\": {\"top\": 516, \"left\": 147, \"width\": 0.485, \"height\": 0.024}}, {\"title\": \"Jeremy Strong: Viking at School\", \"author\": \"Jeremy Strong\", \"visible_text\": \"JEREMY STRONG VIKING AT SCHOOL\", \"uncertain\": false, \"box\": {\"top\": 535, \"left\": 145, \"width\": 0.479, \"height\": 0.015}}, {\"title\": \"To the Rescue\", \"author\": \"Catherine Coe\", \"visible_text\": \"To the Rescue\", \"uncertain\": false, \"box\": {\"top\": 548, \"left\": 146, \"width\": 0.48, \"height\": 0.028}}, {\"title\": \"Star Wars Episode V: The Empire Strikes Back\", \"author\": \"Ryder Windham\", \"visible_text\": \"STAR WARS EPISODE V THE EMPIRE STRIKES BACK Ryder Windham\", \"uncertain\": false, \"box\": {\"top\": 570, \"left\": 147, \"width\": 0.478, \"height\": 0.043}}, {\"title\": \"Tiara Club: The Dazzling Dragon\", \"author\": \"Vivian French\", \"visible_text\": \"The Dazzling Dragon\", \"uncertain\": false, \"box\": {\"top\": 612, \"left\": 144, \"width\": 0.477, \"height\": 0.019}}, {\"title\": \"The Seven Husbands of Evelyn Hugo\", \"author\": null, \"visible_text\": \"The SEVEN HU EVELYN\", \"uncertain\": true, \"box\": {\"top\": 551, \"left\": 846, \"width\": 0.154, \"height\": 0.044}}, {\"title\": \"Magic Ballerina: Delphie and the Magic Spell\", \"author\": \"Darcey Bussell\", \"visible_text\": \"Magic Ballerina Delphie and the Magic Spell Darcey Bussell\", \"uncertain\": false, \"box\": {\"top\": 629, \"left\": 141, \"width\": 0.466, \"height\": 0.038}}, {\"title\": \"Horrible Science: Nasty Nature\", \"author\": \"Nick Arnold\", \"visible_text\": \"NASTY NATURE NICK ARNOLD\", \"uncertain\": false, \"box\": {\"top\": 673, \"left\": 145, \"width\": 0.46, \"height\": 0.019}}, {\"title\": \"Stieg Larsson: The Girl with the Dragon Tattoo\", \"author\": \"Stieg Larsson\", \"visible_text\": \"LARSSON STIEG\", \"uncertain\": true, \"box\": {\"top\": 634, \"left\": 725, \"width\": 0.275, \"height\": 0.063}}, {\"title\": \"Everything's Amazing (sort of) Tom Gates\", \"author\": \"L. Pichon\", \"visible_text\": \"Everything's AMAZING (sort of) TOM GATES BY L. Pichon\", \"uncertain\": false, \"box\": {\"top\": 855, \"left\": 182, \"width\": 0.51, \"height\": 0.093}}, {\"title\": \"Harry Potter and the Cursed Child\", \"author\": null, \"visible_text\": \"HARRY POTTER AND THE CURSED\", \"uncertain\": false, \"box\": {\"top\": 923, \"left\": 111, \"width\": 0.638, \"height\": 0.077}}, {\"title\": \"The Interpretation of Murder\", \"author\": null, \"visible_text\": \"THE INTERPRETATIO MURDER\", \"uncertain\": false, \"box\": {\"top\": 816, \"left\": 769, \"width\": 0.231, \"height\": 0.08}}]}"
+      },
+      {
+        "tile_id": "tile-7",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"The Dark Tower V: Wolves of the Calla\", \"author\": \"Stephen King\", \"visible_text\": \"STEPHEN THE DARK TOWER WOLVES OF\", \"uncertain\": true, \"box\": {\"top\": 341, \"left\": 0.0, \"width\": 0.481, \"height\": 0.129}}, {\"title\": \"Upanishadon Ki Kathayen\", \"author\": \"Anand Prakash Dixit\", \"visible_text\": \"\\u0909\\u0928\\u093F\\u0937\\u0926\\u094B\\u0902 \\u0915\\u0940 \\u0915\\u0925\\u093E\\u092F\\u0947\", \"uncertain\": false, \"box\": {\"top\": 472,       \n      \"left\": 0.024, \"width\": 0.479, \"height\": 0.021}}, {\"title\": \"Atomic Habits\", \"author\": \"James Clear\", \"visible_text\": \"Atomic Habits James Clear\", \"uncertain\": false, \"box\": {\"top\": 490,  \n      \"left\": 0.034, \"width\": 0.521, \"height\": 0.059}}, {\"title\": \"The Seven Husbands of Evelyn Hugo\", \"author\": \"Taylor Jenkins Reid\", \"visible_text\": \"The SEVEN HUSBANDS of EVELYN HUGO TAYLOR JENKINS REID\", \"uncertain\": false, \"box\": {\"top\": 548, \n      \"left\": 0.052, \"width\": 0.529, \"height\": 0.046}}, {\"title\": \"The Girl Who Takes an Eye for an Eye\", \"author\": \"David Lagercrantz\", \"visible_text\": \"STIEG LARSSON DAVID LAGERCRANTZ THE GIRL WHO TAKES AN EYE FOR AN EYE\", \"uncertain\": false, \"box\": {\"top\": 631, \n      \"left\": 0.005, \"width\": 0.522, \"height\": 0.063}}, {\"title\": \"Sabarmati Ka Sant\", \"author\": \"Yashpal Jain\", \"visible_text\": \"\\u0938\\u093E\\u092C\\u0930\\u092E\\u0924\\u0940 \\u0915\\u093E \\u0938\\u0902\\u0924\", \"uncertain\": false, \"box\": {\"top\": 778, \n      \"left\": 0.316, \"width\": 0.52, \"height\": 0.026}}, {\"title\": \"Mere Baale\", \"author\": \"Shailesh Matiyani\", \"visible_text\": \"\\u092E\\u0947\\u0930\\u0947 \\u092C\\u093E\\u0932\\u0947\", \"uncertain\": false, \"box\": {\"top\": 801, \n      \"left\": 0.301, \"width\": 0.53, \"height\": 0.041}}, {\"title\": \"The Lost Symbol\", \"author\": \"Dan Brown\", \"visible_text\": \"DAN BROWN The Lost SYMBOL\", \"uncertain\": false, \"box\": {\"top\": 834, \n      \"left\": 0.309, \"width\": 0.598, \"height\": 0.108}}, {\"title\": \"One Hundred Names\", \"author\": \"Cecelia Ahern\", \"visible_text\": \"One Hundred Names cecelia ahern\", \"uncertain\": false, \"box\": {\"top\": 941, \n      \"left\": 0.37, \"width\": 0.482, \"height\": 0.059}}]}"
+      },
+      {
+        "tile_id": "tile-8",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Lost Symbol\",\"author\":\"DAN BROWN\",\"visible_text\":\"N BROWN The Lost SYMBOL\",\"uncertain\":false,\"box\":{\"top\":0.829,\"left\":0,\"width\":0.449,\"height\":0.113}},{\"title\":\"One Hundred Names\",\"author\":\"cecelia ahern\",\"visible_text\":\"e Hundred Names cecelia\",\"uncertain\":false,\"box\":{\"top\":0.938,\"left\":0,\"width\":0.395,\"height\":0.062}}]}"
+      },
+      {
+        "tile_id": "tile-9",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Mayor of Casterbridge\",\"author\":\"Thomas Hardy\",\"visible_text\":\"THOMAS HARDY THE MAYOR OF CASTERBRIDGE\",\"uncertain\":false,\"box\":{\"top\":0.046,\"left\":0.505,\"width\":0.419,\"height\":0.038}},{\"title\":\"Silas Marner\",\"author\":\"George Eliot\",\"visible_text\":\"ELIOT SILAS MARNER\",\"uncertain\":false,\"box\":{\"top\":0.093,\"left\":0.478,\"width\":0.443,\"height\":0.036}},{\"title\":\"In the Fifth at Malory Towers\",\"author\":\"Enid Blyton\",\"visible_text\":\"Enid Blyton In the Fifth at Malory Towers 5 EGMONT\",\"uncertain\":false,\"box\":{\"top\":0.13,\"left\":0.48,\"width\":0.415,\"height\":0.031}},{\"title\":\"First Term at Malory Towers\",\"author\":\"Enid Blyton\",\"visible_text\":\"Enid Blyton First Term at Malory Towers EGMONT\",\"uncertain\":false,\"box\":{\"top\":0.158,\"left\":0.448,\"width\":0.436,\"height\":0.036}},{\"title\":\"The Small House at Allington\",\"author\":\"Anthony Trollope\",\"visible_text\":\"ANTHONY TROLLOPE \\u2022 The Small House at Allington\",\"uncertain\":false,\"box\":{\"top\":0.311,\"left\":0.457,\"width\":0.447,\"height\":0.092}},{\"title\":\"David Nokes\",\"author\":\"Jane Austen\",\"visible_text\":\"JANE AUSTEN DAVID NOKES\",\"uncertain\":false,\"box\":{\"top\":0.395,\"left\":0.438,\"width\":0.468,\"height\":0.091}},{\"title\":\"The Witches\",\"author\":\"Roald Dahl\",\"visible_text\":\"ROALD DAHL The WITCHES\",\"uncertain\":false,\"box\":{\"top\":0.485,\"left\":0.457,\"width\":0.432,\"height\":0.036}},{\"title\":\"Wish You Were Dead\",\"author\":\"Peter James\",\"visible_text\":\"PETER JAMES WISH YOU WERE DEAD\",\"uncertain\":false,\"box\":{\"top\":0.52,\"left\":0.431,\"width\":0.463,\"height\":0.026}},{\"title\":\"The Spiritual Practices of Rumi\",\"author\":\"Johnson\",\"visible_text\":\"JOHNSON The SPIRITUAL PRACTICES of RUMI\",\"uncertain\":false,\"box\":{\"top\":0.562,\"left\":0.397,\"width\":0.518,\"height\":0.041}},{\"title\":\"The Secret Garden\",\"author\":\"Frances Hodgson Burnett\",\"visible_text\":\"THE SECRET GARDEN FRANCES HODGSON BURNETT\",\"uncertain\":false,\"box\":{\"top\":0.598,\"left\":0.47,\"width\":0.466,\"height\":0.052}},{\"title\":\"Angels & Demons\",\"author\":\"Dan Brown\",\"visible_text\":\"DAN BROWN ANGELS&DEMONS\",\"uncertain\":false,\"box\":{\"top\":0.835,\"left\":0.564,\"width\":0.436,\"height\":0.106}},{\"title\":\"The Girl with the Dragon Tattoo\",\"author\":\"Stieg Larsson\",\"visible_text\":\"LARSSON THE GIRL WITH THE DRAGON TATTOO\",\"uncertain\":false,\"box\":{\"top\":0.932,\"left\":0.575,\"width\":0.425,\"height\":0.068}}]}"
+      },
+      {
+        "tile_id": "tile-10",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Harry Potter and the Cursed Child\", \"author\": \"J.K. Rowling\", \"visible_text\": \"HARRY POTTER\\nAND THE CURSED CHILD\", \"uncertain\": false, \"box\": {\"top\": 0.122, \"left\": 0.111, \"width\": 0.638, \"height\": 0.108}}, {\"title\": \"The Interpretation of Murder\", \"author\": null, \"visible_text\": \"THE INTERPRETATION\\nOF MURDER\", \"uncertain\": false, \"box\": {\"top\": 0.021, \"left\": 0.771, \"width\": 0.229, \"height\": 0.076}}, {\"title\": \"Frankenstein\", \"author\": null, \"visible_text\": \"FRANKENSTEIN\", \"uncertain\": false, \"box\": {\"top\": 0.187, \"left\": 0.74, \"width\": 0.26, \"height\": 0.031}}, {\"title\": \"War of Jenkins' Ear\", \"author\": \"Michael Morpurgo\", \"visible_text\": \"MICHAEL MORPURGO War of Jenkins' Ear\", \"uncertain\": false, \"box\": {\"top\": 0.266, \"left\": 0.138, \"width\": 0.485, \"height\": 0.045}}, {\"title\": \"White Fang\", \"author\": \"Jack London\", \"visible_text\": \"WHITE FANG JACK LONDON\", \"uncertain\": false, \"box\": {\"top\": 0.297, \"left\": 0.635, \"width\": 0.365, \"height\": 0.043}}, {\"title\": \"Wimpy Kid Do-It-Yourself Book\", \"author\": \"Jeff Kinney\", \"visible_text\": \"Wimpy Kid Do-It-Yourself Book JEFF KINNEY\", \"uncertain\": false, \"box\": {\"top\": 0.35, \"left\": 0.716, \"width\": 0.284, \"height\": 0.038}}, {\"title\": \"A Certain Justice\", \"author\": \"P. D. James\", \"visible_text\": \"P. D. JAMES A CERTAIN\\nJUSTICE\", \"uncertain\": false, \"box\": {\"top\": 0.375, \"left\": 0.613, \"width\": 0.387, \"height\": 0.09}}, {\"title\": \"The Troublesome Offspring of Cardinal Guzman\", \"author\": \"Louis de Berni\\u0081res\", \"visible_text\": \"LOUIS de BERNI\\u0081RES The Troublesome Offspring of\\nCardinal Guzman\", \"uncertain\": false, \"box\": {\"top\": 0.443, \"left\": 0.108, \"width\": 0.493, \"height\": 0.079}}, {\"title\": \"Wuthering Heights\", \"author\": \"Bront\\u0099\", \"visible_text\": \"BRONT\\u0089 WUTHERING HEIGHTS\", \"uncertain\": false, \"box\": {\"top\": 0.45, \"left\": 0.61, \"width\": 0.39, \"height\": 0.059}}, {\"title\": \"Stranger Things Suspicious Minds\", \"author\": \"Gwenda Bond\", \"visible_text\": \"STRANGER SUSPICIOUS\\nTHINGS MINDS GWENDA BOND\", \"uncertain\": false, \"box\": {\"top\": 0.498, \"left\": 0.596, \"width\": 0.404, \"height\": 0.063}}, {\"title\": \"Disgusting Digestion\", \"author\": \"Nick Arnold\", \"visible_text\": \"DISGUSTING DIGESTION Nick Arnold\", \"uncertain\": false, \"box\": {\"top\": 0.505, \"left\": 0.107, \"width\": 0.472, \"height\": 0.044}}, {\"title\": \"Rotten Romans\", \"author\": \"Terry Deary\", \"visible_text\": \"ROTTEN ROMANS TERRY DEARY\", \"uncertain\": false, \"box\": {\"top\": 0.528, \"left\": 0.105, \"width\": 0.47, \"height\": 0.041}}, {\"title\": \"The Lottie Project\", \"author\": \"Jacqueline Wilson\", \"visible_text\": \"The Lottie Project Jacqueline W\", \"uncertain\": false, \"box\": {\"top\": 0.548, \"left\": 0.593, \"width\": 0.407, \"height\": 0.066}}, {\"title\": \"Way of the Warrior Kid\", \"author\": \"Jocko Willink\", \"visible_text\": \"WILLINK WAY of the WARRIOR KID\", \"uncertain\": false, \"box\": {\"top\": 0.554, \"left\": 0.138, \"width\": 0.453, \"height\": 0.042}}, {\"title\": \"Venus on Fire Mars on Ice\", \"author\": null, \"visible_text\": \"VENUS ON FIRE MARS ON ICE\", \"uncertain\": false, \"box\": {\"top\": 0.603, \"left\": 0.581, \"width\": 0.419, \"height\": 0.088}}, {\"title\": \"Lorna Doone\", \"author\": \"R. D. Blackmore\", \"visible_text\": \"R. D. BLACKMORE Lorna Doone\", \"uncertain\": false, \"box\": {\"top\": 0.589, \"left\": 0.134, \"width\": 0.446, \"height\": 0.076}}, {\"title\": \"The Girl with the Dragon Tattoo\", \"author\": null, \"visible_text\": \"theGIRLwiththe\\nDRAGON\", \"uncertain\": true, \"box\": {\"top\": 0.941, \"left\": 0.0, \"width\": 0.298, \"height\": 0.059}}]}"
+      },
+      {
+        "tile_id": "tile-11",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"डेरे वाले शैलेश मटियानी\", \"author\": null, \"visible_text\": \"डेरे वाले शैलेश मटियानी\", \"uncertain\": false, \"box\": {\"top\": 4, \"left\": 315, \"width\": 38, \"height\": 34}}, {\"title\": \"DAN BROWN The Lost SYMBOL\", \"author\": \"DAN BROWN\", \"visible_text\": \"DAN BROWN The Lost SYMBOL\", \"uncertain\": false, \"box\": {\"top\": 42, \"left\": 315, \"width\": 907, \"height\": 105}}, {\"title\": \"One Hundred Names\", \"author\": \"cecelia ahern\", \"visible_text\": \"One Hundred Names\", \"uncertain\": false, \"box\": {\"top\": 149, \"left\": 354, \"width\": 851, \"height\": 72}}, {\"title\": \"FRANKENSTEIN\", \"author\": null, \"visible_text\": \"FRANKENSTEIN\", \"uncertain\": false, \"box\": {\"top\": 182, \"left\": 0, \"width\": 204, \"height\": 38}}, {\"title\": \"MICHAEL MORPURGO Long Way Home\", \"author\": \"MICHAEL MORPURGO\", \"visible_text\": \"MICHAEL MORPURGO Long Way Home\", \"uncertain\": false, \"box\": {\"top\": 218, \"left\": 353, \"width\": 863, \"height\": 28}}, {\"title\": \"Bad Day for Badger\", \"author\": null, \"visible_text\": \"Bad Day for Badger\", \"uncertain\": false, \"box\": {\"top\": 249, \"left\": 345, \"width\": 845, \"height\": 28}}, {\"title\": \"everyday confidence 365 WAYS TO A FEARLESS LIFE\", \"author\": null, \"visible_text\": \"everyday confidence 365 WAYS TO A FEARLESS LIFE\", \"uncertain\": false, \"box\": {\"top\": 273, \"left\": 418, \"width\": 849, \"height\": 65}}, {\"title\": \"JACK LONDON\", \"author\": \"JACK LONDON\", \"visible_text\": \"JACK LONDON\", \"uncertain\": false, \"box\": {\"top\": 304, \"left\": 0, \"width\": 298, \"height\": 38}}, {\"title\": \"BARACK OBAMA THE AUDACITY OF HOPE\", \"author\": \"BARACK OBAMA\", \"visible_text\": \"BARACK OBAMA THE AUDACITY OF HOPE\", \"uncertain\": false, \"box\": {\"top\": 328, \"left\": 361, \"width\": 864, \"height\": 73}}, {\"title\": \"The Wimpy Kid Do-It-Yourself Book\", \"author\": null, \"visible_text\": \"The Wimpy Kid Do-It-Yourself Book\", \"uncertain\": false, \"box\": {\"top\": 346, \"left\": 0, \"width\": 250, \"height\": 42}}, {\"title\": \"P.D. JAMES A\", \"author\": \"P.D. JAMES\", \"visible_text\": \"P.D. JAMES A\", \"uncertain\": false, \"box\": {\"top\": 383, \"left\": 0, \"width\": 244, \"height\": 84}}, {\"title\": \"Diary of a Wimpy Kid THE LONG HAUL\", \"author\": \"JEFF KINNEY\", \"visible_text\": \"Diary of a Wimpy Kid THE LONG HAUL\", \"uncertain\": false, \"box\": {\"top\": 401, \"left\": 371, \"width\": 839, \"height\": 26}}, {\"title\": \"I don't love you anymore\", \"author\": \"Rithvik Singh\", \"visible_text\": \"I don't love you anymore\", \"uncertain\": false, \"box\": {\"top\": 425, \"left\": 366, \"width\": 839, \"height\": 27}}, {\"title\": \"Diary of a Wimpy Kid RODRICK RULES\", \"author\": \"JEFF KINNEY\", \"visible_text\": \"Diary of a Wimpy Kid RODRICK RULES\", \"uncertain\": false, \"box\": {\"top\": 451, \"left\": 364, \"width\": 835, \"height\": 31}}, {\"title\": \"BRONTE WUTHERING H\", \"author\": \"BRONTE\", \"visible_text\": \"BRONTE WUTHERING H\", \"uncertain\": false, \"box\": {\"top\": 458, \"left\": 0, \"width\": 251, \"height\": 55}}, {\"title\": \"THE SHORT FICTION SCENARIO\", \"author\": \"Sergei Eisenstein\", \"visible_text\": \"THE SHORT FICTION SCENARIO\", \"uncertain\": false, \"box\": {\"top\": 482, \"left\": 352, \"width\": 857, \"height\": 25}}, {\"title\": \"CIOUS IDS\", \"author\": \"GWENDA BOND\", \"visible_text\": \"CIOUS IDS\", \"uncertain\": false, \"box\": {\"top\": 501, \"left\": 0, \"width\": 293, \"height\": 68}}, {\"title\": \"STORIES SUMMER ADVENTURE\", \"author\": \"Enid Blyton\", \"visible_text\": \"STORIES SUMMER ADVENTURE\", \"uncertain\": false, \"box\": {\"top\": 505, \"left\": 339, \"width\": 827, \"height\": 60}}, {\"title\": \"CHOCOLAT\", \"author\": \"Joanne Harris\", \"visible_text\": \"CHOCOLAT\", \"uncertain\": false, \"box\": {\"top\": 559, \"left\": 335, \"width\": 840, \"height\": 51}}, {\"title\": \"Jacqueline Wilson\", \"author\": \"Jacqueline Wilson\", \"visible_text\": \"Jacqueline Wilson\", \"uncertain\": false, \"box\": {\"top\": 564, \"left\": 0, \"width\": 291, \"height\": 50}}, {\"title\": \"Nine Lives of Montezuma\", \"author\": null, \"visible_text\": \"Nine Lives of Montezuma\", \"uncertain\": true, \"box\": {\"top\": 591, \"left\": 0, \"width\": 286, \"height\": 41}}, {\"title\": \"MOTHER COURAGE AND HER CHILDREN\", \"author\": \"BERTOLT BRECHT\", \"visible_text\": \"MOTHER COURAGE AND HER CHILDREN\", \"uncertain\": false, \"box\": {\"top\": 606, \"left\": 344, \"width\": 822, \"height\": 30}}, {\"title\": \"MARS ON ICE\", \"author\": \"JOHN GRAY\", \"visible_text\": \"MARS ON ICE\", \"uncertain\": false, \"box\": {\"top\": 619, \"left\": 0, \"width\": 321, \"height\": 71}}, {\"title\": \"DON'T LET'S GO TO THE DOGS TONIGHT\", \"author\": \"ALEXANDRA FULLER\", \"visible_text\": \"DON'T LET'S GO TO THE DOGS TONIGHT\", \"uncertain\": false, \"box\": {\"top\": 630, \"left\": 342, \"width\": 843, \"height\": 62}}, {\"title\": \"le Carré OUR GAME\", \"author\": \"le Carré\", \"visible_text\": \"le Carré OUR GAME\", \"uncertain\": false, \"box\": {\"top\": 811, \"left\": 204, \"width\": 772, \"height\": 95}}, {\"title\": \"THE GIRLS'BOOK OF SPELLS\", \"author\": \"RACHEL ELLIOT\", \"visible_text\": \"THE GIRLS'BOOK OF SPELLS\", \"uncertain\": false, \"box\": {\"top\": 901, \"left\": 257, \"width\": 745, \"height\": 63}}, {\"title\": \"लाइफ के कड़वे सच\", \"author\": \"श्वेताभ गंगवार\", \"visible_text\": \"लाइफ के कड़वे सच\", \"uncertain\": false, \"box\": {\"top\": 930, \"left\": 257, \"width\": 769, \"height\": 65}}]}"
+      },
+      {
+        "tile_id": "tile-12",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"The Lost Symbol\", \"author\": \"Dan Brown\", \"visible_text\": \"N BROWN The Lost SYMBOL\", \"uncertain\": false, \"box\": {\"top\": 0.038, \"left\": 0.0, \"width\": 0.449, \"height\": 0.11}}, {\"title\": \"One Hundred Names\", \"author\": \"Cecelia Ahern\", \"visible_text\": \"Hundred Names cecelia ahern\", \"uncertain\": false, \"box\": {\"top\": 0.144, \"left\": 0.001, \"width\": 0.395, \"height\": 0.068}}, {\"title\": \"Long Way Home\", \"author\": \"Michael Morpurgo\", \"visible_text\": \"NORPURGO Long Way Home EGMONT\", \"uncertain\": false, \"box\": {\"top\": 0.218, \"left\": 0.0, \"width\": 0.399, \"height\": 0.031}}, {\"title\": \"Bad Day for Badger\", \"author\": null, \"visible_text\": \"Bad Day for Badger\", \"uncertain\": false, \"box\": {\"top\": 0.248, \"left\": 0.0, \"width\": 0.384, \"height\": 0.024}}, {\"title\": \"Everyday confidence\", \"author\": null, \"visible_text\": \"veryday confidence 365 WAYS TO A FEARLESS LIFE\", \"uncertain\": false, \"box\": {\"top\": 0.274, \"left\": 0.001, \"width\": 0.385, \"height\": 0.063}}, {\"title\": \"The Audacity of Hope\", \"author\": \"Barack Obama\", \"visible_text\": \"CK OBAMA THE AUDACITY OF HOPE\", \"uncertain\": false, \"box\": {\"top\": 0.338, \"left\": 0.001, \"width\": 0.407, \"height\": 0.062}}, {\"title\": \"Diary of a Wimpy Kid: The Long Haul\", \"author\": \"Jeff Kinney\", \"visible_text\": \"Diary of a Wimpy Kid THE LONG HAUL JEFF KINNEY\", \"uncertain\": false, \"box\": {\"top\": 0.397, \"left\": 0.0, \"width\": 0.378, \"height\": 0.027}}, {\"title\": \"I love you anymore\", \"author\": \"Rithvik Singh\", \"visible_text\": \"love you anymore Rithvik Singh\", \"uncertain\": false, \"box\": {\"top\": 0.426, \"left\": 0.0, \"width\": 0.375, \"height\": 0.026}}, {\"title\": \"Diary of a Wimpy Kid: Rodrick Rules\", \"author\": \"Jeff Kinney\", \"visible_text\": \"Diary of a Wimpy Kid RODRICK RULES JEFF KINNEY\", \"uncertain\": false, \"box\": {\"top\": 0.453, \"left\": 0.0, \"width\": 0.37, \"height\": 0.028}}, {\"title\": \"The Short-Fiction Scenario\", \"author\": \"Sergei Eisenstein\", \"visible_text\": \"THE SHORT-FICTION SCENARIO\", \"uncertain\": false, \"box\": {\"top\": 0.485, \"left\": 0.0, \"width\": 0.398, \"height\": 0.021}}, {\"title\": \"Summer Adventure Stories\", \"author\": \"Enid Blyton\", \"visible_text\": \"SUMMER ADVENTURE STORIES\", \"uncertain\": false, \"box\": {\"top\": 0.506, \"left\": 0.0, \"width\": 0.368, \"height\": 0.06}}, {\"title\": \"Chocolat\", \"author\": \"Joanne Harris\", \"visible_text\": \"CHOCOLAT\", \"uncertain\": false, \"box\": {\"top\": 0.567, \"left\": 0.002, \"width\": 0.378, \"height\": 0.052}}, {\"title\": \"Mother Courage and Her Children\", \"author\": \"Bertolt Brecht\", \"visible_text\": \"MOTHER COURAGE AND HER CHILDREN\", \"uncertain\": false, \"box\": {\"top\": 0.613, \"left\": 0.0, \"width\": 0.372, \"height\": 0.024}}, {\"title\": \"Don't Let's Go to the Dogs Tonight\", \"author\": \"Alexandra Fuller\", \"visible_text\": \"ULLER DON'T LET'S GO TO THE DOGS TONIGHT PICADOR CLASSIC\", \"uncertain\": false, \"box\": {\"top\": 0.635, \"left\": 0.0, \"width\": 0.377, \"height\": 0.055}}, {\"title\": \"The Game\", \"author\": null, \"visible_text\": \"GAME\", \"uncertain\": true, \"box\": {\"top\": 0.835, \"left\": 0.0, \"width\": 0.306, \"height\": 0.077}}, {\"title\": \"A Book of Spells\", \"author\": \"Rachel Elliot\", \"visible_text\": \"F SPELLS RACHEL ELLIOT\", \"uncertain\": false, \"box\": {\"top\": 0.916, \"left\": 0.0, \"width\": 0.297, \"height\": 0.046}}, {\"title\": \"सच्च\", \"author\": \"श्वेताभ गंगवार\", \"visible_text\": \"सच श्वेताभ गंगवार eka\", \"uncertain\": false, \"box\": {\"top\": 0.957, \"left\": 0.0, \"width\": 0.306, \"height\": 0.041}}]}"
+      },
+      {
+        "tile_id": "tile-13",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"Angels & Demons\",\"author\":\"Dan Brown\",\"visible_text\":\"DAN BROWN\\nANGELS&DEMONS\",\"uncertain\":false,\"box\":{\"top\":0.021,\"left\":0.564,\"width\":0.428,\"height\":0.122}},{\"title\":\"The Girl with the Dragon Tattoo\",\"author\":\"Stieg Larsson\",\"visible_text\":\"LARSSON GIRL\\nDRAGON\\nTATTOO\",\"uncertain\":false,\"box\":{\"top\":0.143,\"left\":0.575,\"width\":0.42,\"height\":0.081}},{\"title\":\"The Herbal Alchemist's Handbook\",\"author\":\"Harrison\",\"visible_text\":\"HARRISON The HERBAL ALCHEMIST'S HANDBOOK\",\"uncertain\":false,\"box\":{\"top\":0.176,\"left\":0.531,\"width\":0.467,\"height\":0.088}},{\"title\":\"Mappillai\",\"author\":\"Carlo Pizzati\",\"visible_text\":\"CARLO PIZZATI MaPPiLLai\",\"uncertain\":false,\"box\":{\"top\":0.246,\"left\":0.535,\"width\":0.455,\"height\":0.08}},{\"title\":\"Alice in Wonderland\",\"author\":\"Lewis Carroll\",\"visible_text\":\"ALICE IN WONDERLAND Lewis Carroll\",\"uncertain\":false,\"box\":{\"top\":0.312,\"left\":0.669,\"width\":0.331,\"height\":0.038}},{\"title\":\"Inferno\",\"author\":\"Dan Brown\",\"visible_text\":\"DAN BROWN Inferno\",\"uncertain\":false,\"box\":{\"top\":0.313,\"left\":0.514,\"width\":0.485,\"height\":0.147}},{\"title\":\"Prince Caspian\",\"author\":\"C.S. Lewis\",\"visible_text\":\"PRINCE CASPIAN\",\"uncertain\":false,\"box\":{\"top\":0.437,\"left\":0.466,\"width\":0.463,\"height\":0.052}},{\"title\":\"The Horse and His Boy\",\"author\":\"C.S. Lewis\",\"visible_text\":\"THE HORSE AND HIS BOY\",\"uncertain\":false,\"box\":{\"top\":0.472,\"left\":0.489,\"width\":0.457,\"height\":0.036}},{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C.S. Lewis\",\"visible_text\":\"THE LION, THE WITCH\\nAND THE WARDROBE\",\"uncertain\":false,\"box\":{\"top\":0.54,\"left\":0.469,\"width\":0.46,\"height\":0.046}},{\"title\":\"The Chamber\",\"author\":\"John Grisham\",\"visible_text\":\"CHAMBER\\nJOHN GRISHAM\",\"uncertain\":false,\"box\":{\"top\":0.732,\"left\":0.51,\"width\":0.366,\"height\":0.237}},{\"title\":\"The Chamber\",\"author\":\"John Grisham\",\"visible_text\":\"THE CHAMBER\",\"uncertain\":true,\"box\":{\"top\":0.893,\"left\":0.489,\"width\":0.384,\"height\":0.106}}]}"
+      },
+      {
+        "tile_id": "tile-14",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Angels & Demons\", \"author\": \"Dan Brown\", \"visible_text\": \"ROWN\\nDEMONS\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.0, \"width\": 0.339, \"height\": 0.155}}, {\"title\": \"The Girl with the Dragon Tattoo\", \"author\": null, \"visible_text\": \"GIRL with the\\nDRAGON\\nTATTOO\", \"uncertain\": false, \"box\": {\"top\": 142, \"left\": 0, \"width\": 252, \"height\": 89}}, {\"title\": \"Leading\", \"author\": \"Alex Ferguson\", \"visible_text\": \"ALEX FERGUSON\\nWITH MICHAEL MORITZ\\nLEADING\", \"uncertain\": false, \"box\": {\"top\": 0.177, \"left\": 0.493, \"width\": 0.507, \"height\": 0.098}}, {\"title\": \"The Da Vinci Code\", \"author\": \"Dan Brown\", \"visible_text\": \"DAN BROWN\\nTHE DA VINCI CODE\", \"uncertain\": false, \"box\": {\"top\": 0.28, \"left\": 0.479, \"width\": 0.521, \"height\": 0.082}}, {\"title\": \"The Scorch Trials\", \"author\": \"James Dashner\", \"visible_text\": \"SCORCH DASHNER\", \"uncertain\": false, \"box\": {\"top\": 0.354, \"left\": 0.533, \"width\": 0.457, \"height\": 0.048}}, {\"title\": \"Inferno\", \"author\": \"Dan Brown\", \"visible_text\": \"VN Inferno\", \"uncertain\": true, \"box\": {\"top\": 344, \"left\": 0, \"width\": 266, \"height\": 122}}, {\"title\": \"Hunted\", \"author\": \"P. C. Cast\", \"visible_text\": \"Hunted\", \"uncertain\": true, \"box\": {\"top\": 0.395, \"left\": 0.548, \"width\": 0.448, \"height\": 0.063}}, {\"title\": \"The Magician's Nephew\", \"author\": \"C. S. Lewis\", \"visible_text\": \"The Magician's Nephew\", \"uncertain\": false, \"box\": {\"top\": 468, \"left\": 164, \"width\": 544, \"height\": 53}}, {\"title\": \"Prince Caspian\", \"author\": \"C. S. Lewis\", \"visible_text\": \"PRINCE CASPIAN\", \"uncertain\": false, \"box\": {\"top\": 500, \"left\": 163, \"width\": 560, \"height\": 62}}, {\"title\": \"The Fry Chronicles\", \"author\": \"Stephen Fry\", \"visible_text\": \"The Fry Chronicles Stephen Fry\", \"uncertain\": false, \"box\": {\"top\": 0.487, \"left\": 0.575, \"width\": 0.425, \"height\": 0.084}}, {\"title\": \"मेघनाद\", \"author\": \"केविन मिसल\", \"visible_text\": \"मेघनाद\", \"uncertain\": false, \"box\": {\"top\": 0.551, \"left\": 0.574, \"width\": 0.426, \"height\": 0.071}}, {\"title\": \"Maskerade\", \"author\": \"Terry Pratchett\", \"visible_text\": \"MASKERADE\\nTERRY PRATCHETT\", \"uncertain\": false, \"box\": {\"top\": 0.748, \"left\": 0.077, \"width\": 0.536, \"height\": 0.052}}, {\"title\": \"The Captain's Daughter\", \"author\": \"Leah Fleming\", \"visible_text\": \"The Captain's\\nDaughter\\nLEAH\\nFLEMING\", \"uncertain\": false, \"box\": {\"top\": 0.796, \"left\": 0.077, \"width\": 0.539, \"height\": 0.082}}, {\"title\": \"The Doomsday Conspiracy\", \"author\": \"Sidney Sheldon\", \"visible_text\": \"CONSPIRACY\\nTHE DOOMSDAY\\nSIDNEY SHELDON\", \"uncertain\": false, \"box\": {\"top\": 0.88, \"left\": 0.085, \"width\": 0.533, \"height\": 0.069}}, {\"title\": \"The Woman in White\", \"author\": null, \"visible_text\": \"in White\\nThe Woman\", \"uncertain\": false, \"box\": {\"top\": 0.812, \"left\": 0.706, \"width\": 0.294, \"height\": 0.177}}, {\"title\": \"The Inheritance of Loss\", \"author\": \"Kiran Desai\", \"visible_text\": \"KIRAN DESAI\", \"uncertain\": true, \"box\": {\"top\": 0.949, \"left\": 0.067, \"width\": 0.528, \"height\": 0.051}}]}"
+      },
+      {
+        "tile_id": "tile-15",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Our Game\", \"author\": \"John le Carré\", \"visible_text\": \"le Carré OUR GAME\", \"uncertain\": false, \"box\": {\"top\": 15, \"left\": 204, \"width\": 571, \"height\": 99}}, {\"title\": \"The Girls' Book Of Spells\", \"author\": \"Rachel Elliot\", \"visible_text\": \"THE GIRLS'BOOK OF SPELLS RACHEL ELLIOT\", \"uncertain\": false, \"box\": {\"top\": 110, \"left\": 250, \"width\": 506, \"height\": 72}}, {\"title\": \"लाइक के कड़वे सच\", \"author\": \"श्वेताभ गंगवार\", \"visible_text\": \"लाइक के कड़वे सच श्वेताभ गंगवार\", \"uncertain\": false, \"box\": {\"top\": 149, \"left\": 256, \"width\": 512, \"height\": 45}}, {\"title\": \"The Woman in the Window\", \"author\": \"A. J. Finn\", \"visible_text\": \"A J. FINN THE woman in the window\", \"uncertain\": false, \"box\": {\"top\": 178, \"left\": 272, \"width\": 458, \"height\": 92}}, {\"title\": \"A Wing and a Prayer\", \"author\": \"Lyn Andrews\", \"visible_text\": \"Lyn Andrews A Wing and a Prayer\", \"uncertain\": false, \"box\": {\"top\": 249, \"left\": 222, \"width\": 468, \"height\": 68}}, {\"title\": \"The Stars Shine Down\", \"author\": \"Sidney Sheldon\", \"visible_text\": \"SIDNEY SHELDON THE STARS SHINE DOWN\", \"uncertain\": false, \"box\": {\"top\": 298, \"left\": 224, \"width\": 483, \"height\": 108}}, {\"title\": \"The Phantom Tollbooth\", \"author\": \"Norton Juster\", \"visible_text\": \"THE PHANTOM TOLLBOOTH NORTON JUSTER\", \"uncertain\": false, \"box\": {\"top\": 378, \"left\": 224, \"width\": 435, \"height\": 55}}, {\"title\": \"The Lion, the Witch and the Wardrobe\", \"author\": \"C.S. Lewis\", \"visible_text\": \"C. S. LEWIS • The Lion, the Witch and the Wardrobe\", \"uncertain\": false, \"box\": {\"top\": 418, \"left\": 225, \"width\": 465, \"height\": 53}}, {\"title\": \"The Horse and His Boy\", \"author\": \"C.S. Lewis\", \"visible_text\": \"C. S. LEWIS • The Horse and His Boy\", \"uncertain\": false, \"box\": {\"top\": 453, \"left\": 249, \"width\": 457, \"height\": 58}}, {\"title\": \"Tears of the Giraffe\", \"author\": \"Alexander McCall Smith\", \"visible_text\": \"Tears of the Giraffe Alexander McCall Smith\", \"uncertain\": false, \"box\": {\"top\": 481, \"left\": 272, \"width\": 471, \"height\": 73}}, {\"title\": \"When Coal Turned Gold\", \"author\": \"Partha Sarathi Bhattacharyya\", \"visible_text\": \"WHEN COAL TURNED GOLD PARTHA SARATHI BHATTACHARYYA\", \"uncertain\": false, \"box\": {\"top\": 427,   \n                \"left\": 225, \n                \"width\": 571, \n                \"height\": 196}}, {\"title\": \"The Fry Chronicles\", \"author\": \"Stephen Fry\", \"visible_text\": \"The Fry Chronicle\", \"uncertain\": false, \"box\": {\"top\": 490, \"left\": 0, \"width\": 225, \"height\": 81}}, {\"title\": \"कैक्टस मिसल\", \"author\": null, \"visible_text\": \"कैक्टस मिसल\", \"uncertain\": true, \"box\": {\"top\": 564, \"left\": 0, \"width\": 224, \"height\": 60}}, {\"title\": \"The Woman in White\", \"author\": \"Wilkie Collins\", \"visible_text\": \"WILKIE COLLINS The Woman in White\", \"uncertain\": false, \"box\": {\"top\": 812, \"left\": 0, \"width\": 298, \"height\": 184}}, {\"title\": \"Sixteen Horses\", \"author\": \"Greg Buchanan\", \"visible_text\": \"SIXTEEN HORSES GREG BUCHAN\", \"uncertain\": false, \"box\": {\"top\": 843, \"left\": 305, \"width\": 488, \"height\": 154}}]}"
+      },
+      {
+        "tile_id": "tile-16",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Stars Shine Down\",\"author\":\"Sidney Sheldon\",\"visible_text\":\"THE STARS SHINE DOWN\",\"uncertain\":true,\"box\":{\"top\":0.312,\"left\":0.0,\"width\":0.25,\"height\":0.091}},{\"title\":\"A Wing and a Prayer\",\"author\":null,\"visible_text\":\"Wing and a Prayer\",\"uncertain\":true,\"box\":{\"top\":0.258,\"left\":0.0,\"width\":0.247,\"height\":0.054}},{\"title\":\"The Phantom Tollbooth\",\"author\":\"Norton Juster\",\"visible_text\":\"OM TOLLBOOTH NORTON JUSTEA\",\"uncertain\":false,\"box\":{\"top\":0.387,\"left\":0.0,\"width\":0.223,\"height\":0.043}},{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C. S. Lewis\",\"visible_text\":\"tch and the Wardrobe\",\"uncertain\":false,\"box\":{\"top\":0.428,\"left\":0.0,\"width\":0.229,\"height\":0.041}},{\"title\":\"The Giraffe and the Pelly and Me\",\"author\":\"Alexander McCall Smith\",\"visible_text\":\"Giraffe Alexander McCall Smith\",\"uncertain\":false,\"box\":{\"top\":0.499,\"left\":0.0,\"width\":0.282,\"height\":0.057}},{\"title\":\"Turned Gold\",\"author\":\"Partha Sarathi Bhattacharyya\",\"visible_text\":\"URNED GOLD PARTHA SARATHI BHATTACHARYYA\",\"uncertain\":false,\"box\":{\"top\":0.55,\"left\":0.0,\"width\":0.31,\"height\":0.067}},{\"title\":\"Sixteen Horses\",\"author\":\"Greg Buchanan\",\"visible_text\":\"HORSES GREG BUCHAN\",\"uncertain\":false,\"box\":{\"top\":0.835,\"left\":0.0,\"width\":0.329,\"height\":0.165}}]}"
+      },
+      {
+        "tile_id": "tile-17",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"The Chamber\", \"author\": \"John Grisham\", \"visible_text\": \"JOHN GRISHAM THE CHAMBER\", \"uncertain\": false, \"box\": {\"top\": 49, \"left\": 511, \"width\": 0.37, \"height\": 0.239}}, {\"title\": \"Unknown Title\", \"author\": \"John Grisham\", \"visible_text\": \"JOHN GRISHAM\", \"uncertain\": true, \"box\": {\"top\": 218, \"left\": 490, \"width\": 0.375, \"height\": 0.207}}, {\"title\": \"Unknown Title\", \"author\": \"Michael Connelly\", \"visible_text\": \"MICHAEL C\", \"uncertain\": true, \"box\": {\"top\": 472, \"left\": 827, \"width\": 0.173, \"height\": 0.088}}, {\"title\": \"The 48 Laws of Power\", \"author\": \"Robert Greene\", \"visible_text\": \"THE 48 LAW\", \"uncertain\": false, \"box\": {\"top\": 508, \"left\": 465, \"width\": 0.372, \"height\": 0.133}}]}"
+      },
+      {
+        "tile_id": "tile-18",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Maskerade\", \"author\": \"Terry Pratchett\", \"visible_text\": \"TERRY PRATCHETT MASKERADE\", \"uncertain\": false, \"box\": {\"top\": 67, \"left\": 80, \"width\": 530, \"height\": 49}}, {\"title\": \"The Captain's Daughter\", \"author\": \"Leah Fleming\", \"visible_text\": \"The Captain's Daughter LEAH FLEMING\", \"uncertain\": false, \"box\": {\"top\": 116, \"left\": 78, \"width\": 535, \"height\": 80}}, {\"title\": \"The Woman in White\", \"author\": \"Wilkie Collins\", \"visible_text\": \"The Woman in White\", \"uncertain\": false, \"box\": {\"top\": 124, \"left\": 702, \"width\": 298, \"height\": 118}}, {\"title\": \"The Doomsday Conspiracy\", \"author\": \"Sidney Sheldon\", \"visible_text\": \"SIDNEY SHELDON CONSPIRACY THE DOOMSDAY\", \"uncertain\": false, \"box\": {\"top\": 196, \"left\": 83, \"width\": 532, \"height\": 76}}, {\"title\": \"Before I Go To Sleep\", \"author\": \"S J Watson\", \"visible_text\": \"BEFORE I GO TO SLEEP SJ WATSON\", \"uncertain\": false, \"box\": {\"top\": 195, \"left\": 634, \"width\": 366, \"height\": 387}}, {\"title\": \"The Inheritance of Loss\", \"author\": \"Kiran Desai\", \"visible_text\": \"KIRAN DESAI THE INHERITANCE OF LOSS\", \"uncertain\": false, \"box\": {\"top\": 257, \"left\": 69, \"width\": 523, \"height\": 84}}, {\"title\": \"Speaking for Myself: the autobiography\", \"author\": \"Cherie Blair\", \"visible_text\": \"CHERIE BLAIR Speaking for Myself the autobiography\", \"uncertain\": false, \"box\": {\"top\": 322, \"left\": 30, \"width\": 546, \"height\": 185}}, {\"title\": \"Brilliance of the Moon\", \"author\": \"Lian Hearn\", \"visible_text\": \"Brilliance of the Moon LIAN H\", \"uncertain\": false, \"box\": {\"top\": 372, \"left\": 628, \"width\": 372, \"height\": 111}}, {\"title\": \"Tell Me Your Dreams\", \"author\": \"Sidney Sheldon\", \"visible_text\": \"SIDNEY SHELDON TELL ME YOU DRE\", \"uncertain\": false, \"box\": {\"top\": 473, \"left\": 628, \"width\": 372, \"height\": 69}}, {\"title\": \"The Gods of Guilt\", \"author\": \"Michael Connelly\", \"visible_text\": \"MICHAEL CONNELLY THE GODS OF GUILT\", \"uncertain\": false, \"box\": {\"top\": 475, \"left\": 32, \"width\": 551, \"height\": 111}}, {\"title\": \"Hannibal\", \"author\": \"Thomas Harris\", \"visible_text\": \"THOMAS HARRIS HANNIBAL\", \"uncertain\": false, \"box\": {\"top\": 536, \"left\": 630, \"width\": 370, \"height\": 89}}, {\"title\": \"All Cheeses Great & Small: A Life Less Blurry\", \"author\": \"Alex James\", \"visible_text\": \"ALEX JAMES ALL CHEESES GREAT & SMALL A LIFE LESS BLURRY\", \"uncertain\": false, \"box\": {\"top\": 540, \"left\": 97, \"width\": 516, \"height\": 97}}, {\"title\": \"Eeyore Finds the Wolery\", \"author\": \"A.A. Milne\", \"visible_text\": \"EEYORE Finds the Wolery A.A. Milne\", \"uncertain\": false, \"box\": {\"top\": 619, \"left\": 668, \"width\": 332, \"height\": 184}}, {\"title\": \"Dinosaur Trouble\", \"author\": null, \"visible_text\": \"nosaur uble\", \"uncertain\": false, \"box\": {\"top\": 894, \"left\": 677, \"width\": 323, \"height\": 105}}]}"
+      },
+      {
+        "tile_id": "tile-19",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"The Woman in White\", \"author\": \"WILKIE COLLINS\", \"visible_text\": \"The Woman in White\\nWILKIE COLLINS\", \"uncertain\": false, \"box\": {\"top\": 145, \"left\": 147, \"width\": 100, \"height\": 84}}, {\"title\": \"SIXTEEN HORSES\", \"author\": \"GREG BUCHANAN\", \"visible_text\": \"SIXTEEN HORSES\\nBUCHANAN\", \"uncertain\": false, \"box\": {\"top\": 159,     \n      \"left\": 302, \n      \"width\": 487, \n      \"height\": 226\n    }\n  },\n  {\n    \"title\": \"BEFORE I GO TO SLEEP\", \"author\": \"S J WATSON\", \n    \"visible_text\": \"BEFORE I GO\\nS J WATS\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 308, \n      \"left\": 0, \n      \"width\": 240, \n      \"height\": 70\n    }\n  },\n  {\n    \"title\": \"AGENT 21 CODEBREAKER\", \"author\": \"CHRIS RYAN\", \n    \"visible_text\": \"CHRIS RYAN AGENT 21 CODEBREAKER\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 384, \n      \"left\": 331, \n      \"width\": 458, \n      \"height\": 70\n    }\n  },\n  {\n    \"title\": \"Tell Me Your Dreams\", \"author\": null, \n    \"visible_text\": \"TELL ME\\nYOUR\\nDREAMS\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 489, \n      \"left\": 0, \n      \"width\": 290, \n      \"height\": 55\n    }\n  },\n  {\n    \"title\": \"Stolen\", \"author\": \"LESLEY PEARSE\", \n    \"visible_text\": \"LESLEY PEARSE Stolen\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 438, \n      \"left\": 341, \n      \"width\": 427, \n      \"height\": 65\n    }\n  },\n  {\n    \"title\": \"HANNIBAL\", \"author\": \"THOMAS HARRIS\", \n    \"visible_text\": \"MAS HARRIS\\nANNIBAL\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 543, \n      \"left\": 0, \n      \"width\": 289, \n      \"height\": 84\n    }\n  },\n  {\n    \"title\": \"THE HIGH LORD\", \"author\": \"TRUDI CANAVAN\", \n    \"visible_text\": \"THE HIGH LORD TRUDI\\nCANAVAN\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 472, \n      \"left\": 313, \n      \"width\": 477, \n      \"height\": 178\n    }\n  },\n  {\n    \"title\": \"EEYORE Finds the Wolery\", \"author\": null, \n    \"visible_text\": \"EEYORE Finds the Wolery\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 622, \n      \"left\": 0, \n      \"width\": 232, \n      \"height\": 182\n    }\n  },\n  {\n    \"title\": \"WHAT KATY DID\", \"author\": \"Susan M. Coolidge\", \n    \"visible_text\": \"WHAT KATY DID Susan M. Coolidge\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 929, \n      \"left\": 266, \n      \"width\": 401, \n      \"height\": 61\n    }\n  },\n  {\n    \"title\": \"THE THIRTY-NINE STEPS\", \"author\": \"John Buchan\", \n    \"visible_text\": \"THE THIRTY-NINE STEPS John Buchan\", \n    \"uncertain\": false, \n    \"box\": {\n      \"top\": 966, \n      \"left\": 272, \n      \"width\": 393, \n      \"height\": 34\n    }\n  }\n]}"
+      },
+      {
+        "tile_id": "tile-20",
+        "pass": "read",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Sixteen Horses\", \"author\": \"Greg Buchanan\", \"visible_text\": \"EEN HORSES\", \"uncertain\": false, \"box\": {\"top\": 141, \"left\": 0, \"width\": 328, \"height\": 249}}, {\"title\": \"Agent 21: Codebreaker\", \"author\": null, \"visible_text\": \"AGENT 21 CODEBREAKER\", \"uncertain\": false, \"box\": {\"top\": 381, \"left\": 0, \"width\": 331, \"height\": 71}}, {\"title\": \"Stolen\", \"author\": \"Lesley Pearse\", \"visible_text\": \"LEY PEARSE Stolen\", \"uncertain\": false, \"box\": {\"top\": 435, \"left\": 0, \"width\": 308, \"height\": 65}}, {\"title\": \"The High Lord\", \"author\": \"Trudi Canavan\", \"visible_text\": \"IGH LORD TRUDI CANAVAN\", \"uncertain\": false, \"box\": {\"top\": 490, \"left\": 0, \"width\": 331, \"height\": 158}}, {\"title\": \"Unknown Title\", \"author\": \"Susan Andersen\", \"visible_text\": \"SUSAN ANDERSEN\", \"uncertain\": true, \"box\": {\"top\": 883, \"left\": 0, \"width\": 217, \"height\": 49}}, {\"title\": \"Unknown Title\", \"author\": \"Susan Coolidge\", \"visible_text\": \"oolidge\", \"uncertain\": true, \"box\": {\"top\": 932, \"left\": 0, \"width\": 204, \"height\": 59}}, {\"title\": \"Unknown Title\", \"author\": \"John Buchan\", \"visible_text\": \"John Buchan\", \"uncertain\": true, \"box\": {\"top\": 980, \"left\": 0, \"width\": 208, \"height\": 20}}]}"
+      },
+      {
+        "tile_id": "tile-1",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"Mathematics Twelfth Edition\", \"author\": null, \"visible_text\": \"HEMATICS\", \"uncertain\": true, \"box\": {\"top\": 0.0, \"left\": 14, \"width\": 84, \"height\": 235}}]}"
+      },
+      {
+        "tile_id": "tile-2",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[]}"
+      },
+      {
+        "tile_id": "tile-3",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"JOHN GRISHAM\",\"author\":null,\"visible_text\":\"JOHN GRISHAM\",\"uncertain\":true,\"box\":{\"top\":0.485,\"left\":0.0,\"width\":0.046,\"height\":0.11}}]}"
+      },
+      {
+        "tile_id": "tile-4",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": []}"
+      },
+      {
+        "tile_id": "tile-5",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"First Term at Malory Towers\",\"author\":\"Enid Blyton\",\"visible_text\":\"Enid Blyton First Term Malory Towers\",\"uncertain\":false,\"box\":{\"top\":0.446,\"left\":0.0,\"width\":0.046,\"height\":0.395}},{\"title\":\"In the Fifth at Malory Towers\",\"author\":\"Enid Blyton\",\"visible_text\":\"Enid Blyton In the Fifth at Malory Towers\",\"uncertain\":false,\"box\":{\"top\":0.479,\"left\":0.033,\"width\":0.042,\"height\":0.412}},{\"title\":\"Silas Marner\",\"author\":\"George Eliot\",\"visible_text\":\"ELIOT SILAS MARNER\",\"uncertain\":false,\"box\":{\"top\":0.479,\"left\":0.061,\"width\":0.052,\"height\":0.381}},{\"title\":\"The Mayor of Casterbridge\",\"author\":\"Thomas Hardy\",\"visible_text\":\"THOMAS HARDY THE MAYOR OF CASTERBRIDGE\",\"uncertain\":false,\"box\":{\"top\":0.505,\"left\":0.103,\"width\":0.057,\"height\":0.422}},{\"title\":\"Still Me\",\"author\":\"Jojo Moyes\",\"visible_text\":\"jojo moyes Still Me\",\"uncertain\":false,\"box\":{\"top\":0.354,\"left\":0.316,\"width\":0.086,\"height\":0.476}},{\"title\":\"The Giver of Stars\",\"author\":\"Jojo Moyes\",\"visible_text\":\"Jojo Moyes The Giver of Stars\",\"uncertain\":false,\"box\":{\"top\":0.373,\"left\":0.411,\"width\":0.093,\"height\":0.471}},{\"title\":\"After You\",\"author\":\"Jojo Moyes\",\"visible_text\":\"jojo moyes after you\",\"uncertain\":false,\"box\":{\"top\":0.368,\"left\":0.498,\"width\":0.078,\"height\":0.477}},{\"title\":\"Harry Potter and the Goblet of Fire\",\"author\":\"J.K. Rowling\",\"visible_text\":\"HARRY POTTER and the Goblet of Fire J. K. ROWLING\",\"uncertain\":false,\"box\":{\"top\":0.404,\"left\":0.558,\"width\":0.125,\"height\":0.501}},{\"title\":\"Mathematics Secondary School\",\"author\":null,\"visible_text\":\"Mathematics SECONDARY SCHOOL\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.342,\"width\":0.096,\"height\":0.258}},{\"title\":\"Mathematics\",\"author\":null,\"visible_text\":\"HEMATICS\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.437,\"width\":0.087,\"height\":0.252}},{\"title\":\"Calculus\",\"author\":null,\"visible_text\":\"al Calculus\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.522,\"width\":0.046,\"height\":0.25}},{\"title\":\"Make Brilliant\",\"author\":null,\"visible_text\":\"Make Brilliant\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.565,\"width\":0.052,\"height\":0.248}},{\"title\":\"Concise Chemistry I.C.S.E.\",\"author\":null,\"visible_text\":\"CISE CHEMISTRY I.C.S.E.\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.74,\"width\":0.033,\"height\":0.243}},{\"title\":\"Social Science Class 10\",\"author\":null,\"visible_text\":\"Social Science Class 10\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.772,\"width\":0.038,\"height\":0.241}},{\"title\":\"Mathematics\",\"author\":null,\"visible_text\":\"HEMATICS\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.806,\"width\":0.086,\"height\":0.238}}]}"
+      },
+      {
+        "tile_id": "tile-6",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"MARTY NATURE\", \"author\": \"NICK ARNOLD\", \"visible_text\": \"MARTY NATURE\", \"uncertain\": false, \"box\": {\"top\": 0.147, \"left\": 0.306, \"width\": 0.024, \"height\": 0.457}}, {\"title\": \"The Magic Ballerina: Delphie and the Magic Spell\", \"author\": \"Darcey Bussell\", \"visible_text\": \"Magic Ballerina Delphie and the Magic Spell\", \"uncertain\": false, \"box\": {\"top\": 0.144, \"left\": 0.329, \"width\": 0.034, \"height\": 0.505}}, {\"title\": \"The Seven Husbands of Evelyn Hugo\", \"author\": null, \"visible_text\": \"THE SEVEN HU EVELYN\", \"uncertain\": true, \"box\": {\"top\": 851,          \n        \"left\": 0.404, \"width\": 0.041, \"height\": 0.148}}, {\"title\": \"Atomic Habits\", \"author\": null, \"visible_text\": \"Atomic\", \"uncertain\": true, \"box\": {\"top\": 841,  \n        \"left\": 0.452, \"width\": 0.05, \"height\": 0.158}}, {\"title\": \"The Dark Tower Volume IV\", \"author\": \"STEPHEN KING\", \"visible_text\": \"STEPH N THE DARK TOWER VOLUME IV\", \"uncertain\": false, \"box\": {\"top\": 782, \"left\": 0.529, \"width\": 0.117, \"height\": 0.218}}, {\"title\": \"STAR WARS EPISODE V THE EMPIRE STRIKES BACK\", \"author\": \"Ryder Windham\", \"visible_text\": \"STAR WARS EPISODE V THE EMPIRE STRIKES BACK\", \"uncertain\": false, \"box\": {\"top\": 0.153, \"left\": 0.385, \"width\": 0.046, \"height\": 0.476}}, {\"title\": \"DIRTY BERTIE WORMS!\", \"author\": \"Roberts \\u2022 Macdonald\", \"visible_text\": \"DIRTY BERTIE WORMS!\", \"uncertain\": false, \"box\": {\"top\": 0.147, \"left\": 0.456, \"width\": 0.027, \"height\": 0.479}}, {\"title\": \"Everything's AMAZING (sort of)\", \"author\": \"L. Pichon\", \"visible_text\": \"Everything's AMAZING (sort of)\", \"uncertain\": false, \"box\": {\"top\": 0.183, \"left\": 0.05, \"width\": 0.09, \"height\": 0.472}}, {\"title\": \"HARRY POTTER AND THE CURSED CHILD PARTS ONE AND TWO\", \"author\": \"J.K. ROWLING JOHN TIFFANY & JACK THORNE\", \"visible_text\": \"HARRY POTTER\", \"uncertain\": false, \"box\": {\"top\": 0.113, \"left\": 0.0, \"width\": 0.071, \"height\": 0.638}}, {\"title\": \"THE INTERPRETATION OF MURDER\", \"author\": null, \"visible_text\": \"THE INTERPRETAT OF MURDER\", \"uncertain\": false, \"box\": {\"top\": 772, \"left\": 0.103, \"width\": 0.076, \"height\": 0.228}}]}"
+      },
+      {
+        "tile_id": "tile-7",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"The Interpretation of Murder\", \"author\": null, \"visible_text\": \"THE INTERPRETATION OF MURDER\", \"uncertain\": true, \"box\": {\"top\": 0.0, \"left\": 0.103, \"width\": 0.103, \"height\": 0.297}}, {\"title\": \"P.D. James\", \"author\": null, \"visible_text\": \"P.D\", \"uncertain\": true, \"box\": {\"top\": 286, \n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \"left\": 0.003, \"width\": 0.046, \"height\": 0.081}}, {\"title\": \"One Hundred Names\", \"author\": \"Cecelia Ahern\", \"visible_text\": \"One Hundred Names cecelia ahern\", \"uncertain\": false, \"box\": {\"top\": 361, \"left\": 0.0, \"width\": 0.052, \"height\": 0.493}}, {\"title\": \"The Lost Symbol\", \"author\": \"DAN BROWN\", \"visible_text\": \"DAN BROWN The Lost SYMBOL\", \"uncertain\": false, \"box\": {\"top\": 308, \"left\": 0.048, \"width\": 0.111, \"height\": 0.601}}, {\"title\": \"मेरे रास्ते\", \"author\": null, \"visible_text\": \"मेरे रास्ते\", \"uncertain\": false, \"box\": {\"top\": 344, \"left\": 0.163, \"width\": 0.038, \"height\": 0.485}}, {\"title\": \"साबरमती का संत\", \"author\": \"रमेश पंरियानी\", \"visible_text\": \"साबरमती का संत रमेश पंरियानी\", \"uncertain\": false, \"box\": {\"top\": 348, \"left\": 0.188, \"width\": 0.03, \"height\": 0.481}}, {\"title\": \"THE GIRL WHO TAKES AN EYE FOR AN EYE\", \"author\": \"DAVID LAGERCRANTZ\", \"visible_text\": \"DAVID LAGERCRANT THE GIR WHO TAKE AN EYE FOR AN EYE\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.301, \"width\": 0.067, \"height\": 0.523}}, {\"title\": \"THE SEVEN HUSBANDS of EVELYN HUGO\", \"author\": \"TAYLOR JENKINS REID\", \"visible_text\": \"THE SEVEN HUSBANDS of EVELYN HUGO TAYLOR JENKINS REID\", \"uncertain\": false, \"box\": {\"top\": 51, \"left\": 0.389, \"width\": 0.052, \"height\": 0.534}}, {\"title\": \"Atomic Habits\", \"author\": \"James Clear\", \"visible_text\": \"Atomic Habits James Clear\", \"uncertain\": false, \"box\": {\"top\": 32, \"left\": 0.443, \"width\": 0.067, \"height\": 0.524}}, {\"title\": \"अग्निपुत्री (मराठी अनुवाद)\", \"author\": \"आनंद नीलकंठन\", \"visible_text\": \"अग्निपुत्री\", \"uncertain\": false, \"box\": {\"top\": 21, \"left\": 0.498, \"width\": 0.024, \"height\": 0.483}}, {\"title\": \"THE DARK TOWER VOLUME V: WOLVES OF THE CALLA\", \"author\": \"STEPHEN KING\", \"visible_text\": \"STEPHEN KING THE DARK TOWER VOLUME V WOLVES OF THE CALLA\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.525, \"width\": 0.133, \"height\": 0.472}}]}"
+      },
+      {
+        "tile_id": "tile-8",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"cecelia ahern One Hundred Names\",\"author\":null,\"visible_text\":\"cecelia ahern e Hundred Names\",\"uncertain\":false,\"box\":{\"top\":0,\"left\":0,\"width\":0.054,\"height\":0.414}},{\"title\":\"DAN BROWN The Lost Symbol\",\"author\":\"DAN BROWN\",\"visible_text\":\"N BROWN The Lost SYMBOL\",\"uncertain\":false,\"box\":{\"top\":0,\"left\":0.05,\"width\":0.117,\"height\":0.457}},{\"title\":\"साबरमती का संत\",\"author\":null,\"visible_text\":\"साबरमती का संत\",\"uncertain\":true,\"box\":{\"top\":0,\"left\":0.191,\"width\":0.027,\"height\":0.375}},{\"title\":\"यसपाल जैन\",\"author\":null,\"visible_text\":\"यसपाल जैन\",\"uncertain\":false,\"box\":{\"top\":0,\"left\":0.17,\"width\":0.024,\"height\":0.378}}]}"
+      },
+      {
+        "tile_id": "tile-9",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Girl with the Dragon Tattoo\",\"author\":\"Stieg Larsson\",\"visible_text\":\"GIRL WITH THE DRAGON TATTOO LARSSON\",\"uncertain\":false,\"box\":{\"top\":0.584,\"left\":0.007,\"width\":0.076,\"height\":0.413}},{\"title\":\"Angels & Demons\",\"author\":\"Dan Brown\",\"visible_text\":\"DAN BROWN ANGELS & DEMONS\",\"uncertain\":false,\"box\":{\"top\":0.572,\"left\":0.057,\"width\":0.119,\"height\":0.428}},{\"title\":\"The Secret Garden\",\"author\":\"Frances Hodgson Burnett\",\"visible_text\":\"THE SECRET GARDEN FRANCES HODGSON BURNETT\",\"uncertain\":false,\"box\":{\"top\":0.472,\"left\":0.347,\"width\":0.047,\"height\":0.457}},{\"title\":\"The Spiritual Practices of Rumi\",\"author\":null,\"visible_text\":\"The SPIRITUAL PRACTICES of RUMI\",\"uncertain\":true,\"box\":{\"top\":0.402,\"left\":0.39,\"width\":0.042,\"height\":0.528}},{\"title\":\"Farm Boy\",\"author\":\"Michael Morpurgo\",\"visible_text\":\"michael morpurgo Farm Boy\",\"uncertain\":false,\"box\":{\"top\":0.443,\"left\":0.423,\"width\":0.026,\"height\":0.485}},{\"title\":\"Wish You Were Dead\",\"author\":\"Peter James\",\"visible_text\":\"PETER JAMES WISH YOU WERE DEAD\",\"uncertain\":false,\"box\":{\"top\":0.435,\"left\":0.452,\"width\":0.023,\"height\":0.468}},{\"title\":\"The Witches\",\"author\":\"Roald Dahl\",\"visible_text\":\"ROALD DAHL THE WITCHES\",\"uncertain\":false,\"box\":{\"top\":0.456,\"left\":0.473,\"width\":0.045,\"height\":0.443}},{\"title\":\"Jane Austen\",\"author\":\"David Nokes\",\"visible_text\":\"JANE AUSTEN DAVID NOKES\",\"uncertain\":false,\"box\":{\"top\":0.438,\"left\":0.509,\"width\":0.093,\"height\":0.465}},{\"title\":\"The Small House at Allington\",\"author\":\"Anthony Trollope\",\"visible_text\":\"ANTHONY TROLLOPE The Small House at Allington\",\"uncertain\":false,\"box\":{\"top\":0.465,\"left\":0.597,\"width\":0.076,\"height\":0.449}},{\"title\":\"Harry Potter and the Order of the Phoenix\",\"author\":\"J.K. Rowling\",\"visible_text\":\"HARRY POTTER J K ROWLING\",\"uncertain\":true,\"box\":{\"top\":0.433,\"left\":0.686,\"width\":0.114,\"height\":0.451}},{\"title\":\"First Term at Malory Towers\",\"author\":\"Enid Blyton\",\"visible_text\":\"First Term at Malory Towers\",\"uncertain\":false,\"box\":{\"top\":0.452,\"left\":0.803,\"width\":0.038,\"height\":0.395}},{\"title\":\"In the Fifth at Malory Towers\",\"author\":\"Enid Blyton\",\"visible_text\":\"Enid Blyton In the Fifth at Malory Towers\",\"uncertain\":false,\"box\":{\"top\":0.482,\"left\":0.829,\"width\":0.039,\"height\":0.413}},{\"title\":\"Silas Marner\",\"author\":\"George Eliot\",\"visible_text\":\"ELIOT SILAS MARNER\",\"uncertain\":false,\"box\":{\"top\":0.483,\"left\":0.865,\"width\":0.038,\"height\":0.372}},{\"title\":\"The Mayor of Casterbridge\",\"author\":\"Thomas Hardy\",\"visible_text\":\"THOMAS HARDY THE MAYOR OF CASTERBRIDGE\",\"uncertain\":false,\"box\":{\"top\":0.505,\"left\":0.906,\"width\":0.046,\"height\":0.42}}]}"
+      },
+      {
+        "tile_id": "tile-10",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Girl with the Dragon Tattoo\",\"author\":null,\"visible_text\":\"THE GIRL WITH THE DRAGON TATTOO\",\"uncertain\":true,\"box\":{\"top\":0.0071,\"left\":0.0104,\"width\":0.0275,\"height\":0.2223}},{\"title\":\"Crown of Demons\",\"author\":null,\"visible_text\":\"CROWN of DEMONS\",\"uncertain\":true,\"box\":{\"top\":0.005,\"left\":0.0573,\"width\":0.1066,\"height\":0.1989}},{\"title\":\"Lorna Doone\",\"author\":\"R. D. BLACKMORE\",\"visible_text\":\"R. D. BLACKMORE • Lorna Doone\",\"uncertain\":false,\"box\":{\"top\":0.1442,\"left\":0.3341,\"width\":0.071,\"height\":0.4308}},{\"title\":\"Way of the Warrior Kid\",\"author\":\"WILLINK\",\"visible_text\":\"WILLINK WAY of the WARRIOR KID\",\"uncertain\":false,\"box\":{\"top\":0.1417,\"left\":0.4005,\"width\":0.043,\"height\":0.4431}},{\"title\":\"Rotten Romans\",\"author\":\"TERRY DEARY\",\"visible_text\":\"TERRY DEARY ROTTEN ROMANS\",\"uncertain\":false,\"box\":{\"top\":0.1264,\"left\":0.4357,\"width\":0.0315,\"height\":0.432}},{\"title\":\"Disgusting Digestion\",\"author\":\"NICK ARNOLD\",\"visible_text\":\"HORRIBLE SCIENCE DISGUSTING DIGESTION Nick Arnold\",\"uncertain\":false,\"box\":{\"top\":0.108,\"left\":0.4578,\"width\":0.0359,\"height\":0.4398}},{\"title\":\"The Troublesome Offspring of Cardinal Guzman\",\"author\":\"LOUIS de BERNIERES\",\"visible_text\":\"The Troublesome Offspring of Cardinal Guzman LOUIS de BERNIERES\",\"uncertain\":false,\"box\":{\"top\":0.1343,\"left\":0.4828,\"width\":0.0636,\"height\":0.3951}},{\"title\":\"Riding the Storm\",\"author\":\"LUCY DANIELS\",\"visible_text\":\"LUCY DANIELS RIDING THE STORM\",\"uncertain\":false,\"box\":{\"top\":0.1305,\"left\":0.5487,\"width\":0.0248,\"height\":0.4379}},{\"title\":\"The Personal MBA\",\"author\":\"JOSH KAUFMAN\",\"visible_text\":\"JOSH KAUFMAN The Personal MBA\",\"uncertain\":false,\"box\":{\"top\":0.1219,\"left\":0.5843,\"width\":0.0594,\"height\":0.4704}},{\"title\":\"War of Jenkins' Ear\",\"author\":\"MICHAEL MORPURGO\",\"visible_text\":\"MICHAEL MORPURGO War of Jenkins' Ear\",\"uncertain\":false,\"box\":{\"top\":0.1423,\"left\":0.6865,\"width\":0.0392,\"height\":0.4526}},{\"title\":\"Excellent Excuses (and other good stuff)\",\"author\":\"Liz Pichon\",\"visible_text\":\"Excellent Excuses (and other good stuff) Liz Pichon\",\"uncertain\":false,\"box\":{\"top\":0.1557,\"left\":0.7169,\"width\":0.0743,\"height\":0.4764}},{\"title\":\"Harry Potter and the Cursed Child\",\"author\":\"J.K. ROWLING\",\"visible_text\":\"HARRY POTTER AND THE CURSED CHILD J.K. ROWLING\",\"uncertain\":false,\"box\":{\"top\":0.1171,\"left\":0.7681,\"width\":0.0931,\"height\":0.6309}},{\"title\":\"Tom Gates: Everything's Amazing (sort of)\",\"author\":\"L. Pichon\",\"visible_text\":\"Everything's AMAZING (sort of) TOM GATES BY L. PICHON\",\"uncertain\":false,\"box\":{\"top\":0.1802,\"left\":0.8523,\"width\":0.0917,\"height\":0.4561}},{\"title\":\"Venus on Fire, Mars on Ice\",\"author\":null,\"visible_text\":\"VENUS ON FIRE MARS ON ICE\",\"uncertain\":false,\"box\":{\"top\":0.5786,\"left\":0.3134,\"width\":0.0628,\"height\":0.4079}},{\"title\":\"The Lottie Project\",\"author\":\"Jacqueline Wilson\",\"visible_text\":\"Jacqueline Wilson The Lottie Project\",\"uncertain\":false,\"box\":{\"top\":0.596,\"left\":0.3888,\"width\":0.0577,\"height\":0.3951}},{\"title\":\"Suspicious Minds\",\"author\":\"GWENDA BOND\",\"visible_text\":\"STRANGER THINGS SUSPICIOUS MINDS GWENDA BOND\",\"uncertain\":false,\"box\":{\"top\":0.5985,\"left\":0.4338,\"width\":0.0622,\"height\":0.3951}},{\"title\":\"Wuthering Heights\",\"author\":\"BRONTE\",\"visible_text\":\"BRONTE WUTHERING HEIGHTS\",\"uncertain\":false,\"box\":{\"top\":0.6133,\"left\":0.4908,\"width\":0.0487,\"height\":0.3808}},{\"title\":\"A Certain Justice\",\"author\":\"P.D. JAMES\",\"visible_text\":\"P.D. JAMES A CERTAIN JUSTICE\",\"uncertain\":false,\"box\":{\"top\":0.6148,\"left\":0.5367,\"width\":0.064,\"height\":0.3739}},{\"title\":\"Diary of a Wimpy Kid: Do-It-Yourself Book\",\"author\":\"JEFF KINNEY\",\"visible_text\":\"Wimpy Kid Do-It-Yourself Book JEFF KINNEY\",\"uncertain\":false,\"box\":{\"top\":0.6094,\"left\":0.608,\"width\":0.0384,\"height\":0.3806}},{\"title\":\"White Fang\",\"author\":\"JACK LONDON\",\"visible_text\":\"WHITE FANG JACK LONDON\",\"uncertain\":false,\"box\":{\"top\":0.6402,\"left\":0.6559,\"width\":0.0382,\"height\":0.3541}}]}"
+      },
+      {
+        "tile_id": "tile-11",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"MARS ON ICE\",\"author\":null,\"visible_text\":\"MARS ON ICE\",\"uncertain\":false,\"box\":{\"top\":0.000627258,\"left\":0.306013,\"width\":0.0655381,\"height\":0.315185}},{\"title\":\"WUTHERING H\",\"author\":\"BRONTË\",\"visible_text\":\"WUTHERING H\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.491295,\"width\":0.0526055,\"height\":0.237194}},{\"title\":\"P.D.JAMES\",\"author\":null,\"visible_text\":\"P.D.JAMES\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.534241,\"width\":0.081878,\"height\":0.246837}},{\"title\":\"JACK LONDON\",\"author\":null,\"visible_text\":\"JACK LONDON\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.655845,\"width\":0.0401869,\"height\":0.303977}},{\"title\":\"The GIRLS' BOOK of SPELLS\",\"author\":null,\"visible_text\":\"The GIRLS' BOOK of SPELLS\",\"uncertain\":false,\"box\":{\"top\":0.258674,\"left\":0.34731,\"width\":0.0682285,\"height\":0.490513}},{\"title\":\"OUR GAME\",\"author\":null,\"visible_text\":\"OUR GAME\",\"uncertain\":false,\"box\":{\"top\":0.210959,\"left\":0.932822,\"width\":0.10667,\"height\":0.56475}},{\"title\":\"CHOCOLAT\",\"author\":null,\"visible_text\":\"CHOCOLAT\",\"uncertain\":false,\"box\":{\"top\":0.339129,\"left\":0.380295,\"width\":0.0571617,\"height\":0.501931}},{\"title\":\"Diary of a Wimpy Kid RODRICK RULES\",\"author\":null,\"visible_text\":\"Diary of a Wimpy Kid RODRICK RULES\",\"uncertain\":false,\"box\":{\"top\":0.370425,\"left\":0.514035,\"width\":0.0337854,\"height\":0.457858}},{\"title\":\"I don't love you anymore\",\"author\":null,\"visible_text\":\"I don't love you anymore\",\"uncertain\":false,\"box\":{\"top\":0.366228,\"left\":0.547141,\"width\":0.0261195,\"height\":0.47291}},{\"title\":\"Diary of a Wimpy Kid THE LONG HAUL\",\"author\":null,\"visible_text\":\"Diary of a Wimpy Kid THE LONG HAUL\",\"uncertain\":false,\"box\":{\"top\":0.371286,\"left\":0.573934,\"width\":0.0260424,\"height\":0.470438}},{\"title\":\"BARACK OBAMA THE AUDACITY OF HOPE\",\"author\":null,\"visible_text\":\"BARACK OBAMA THE AUDACITY OF HOPE\",\"uncertain\":false,\"box\":{\"top\":0.354148,\"left\":0.597652,\"width\":0.068297,\"height\":0.513512}},{\"title\":\"everyday confidence\",\"author\":null,\"visible_text\":\"everyday confidence\",\"uncertain\":false,\"box\":{\"top\":0.419077,\"left\":0.659972,\"width\":0.0664956,\"height\":0.430489}},{\"title\":\"Bad Day for Badger\",\"author\":null,\"visible_text\":\"Bad Day for Badger\",\"uncertain\":false,\"box\":{\"top\":0.345831,\"left\":0.724734,\"width\":0.0280456,\"height\":0.503463}},{\"title\":\"Long Way Home\",\"author\":null,\"visible_text\":\"Long Way Home\",\"uncertain\":false,\"box\":{\"top\":0.360067,\"left\":0.75168,\"width\":0.0298516,\"height\":0.502931}},{\"title\":\"One Hundred Names\",\"author\":null,\"visible_text\":\"One Hundred Names\",\"uncertain\":false,\"box\":{\"top\":0.373413,\"left\":0.778843,\"width\":0.0760416,\"height\":0.481611}},{\"title\":\"DAN BROWN The Lost SYMBOL\",\"author\":null,\"visible_text\":\"DAN BROWN The Lost SYMBOL\",\"uncertain\":false,\"box\":{\"top\":0.312948,\"left\":0.849033,\"width\":0.117215,\"height\":0.601267}}]}"
+      },
+      {
+        "tile_id": "tile-12",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"SPELLS\",\"author\":\"RACHEL ELLIOT\",\"visible_text\":\"SPELLS\",\"uncertain\":false,\"box\":{\"top\":0.0075,\"left\":0.0333,\"width\":0.0463,\"height\":0.2974}},{\"title\":\"GAME\",\"author\":null,\"visible_text\":\"GAME\",\"uncertain\":false,\"box\":{\"top\":0.0051,\"left\":0.0886,\"width\":0.0782,\"height\":0.3061}},{\"title\":\"MOTHER COURAGE AND HER CHILDREN\",\"author\":\"BERTOLT BRECHT\",\"visible_text\":\"MOTHER COURAGE AND HER CHILDREN\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.3547,\"width\":0.0333,\"height\":0.3702}},{\"title\":\"CHOCOLAT\",\"author\":\"Joanne\",\"visible_text\":\"CHOCOLAT\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.3804,\"width\":0.0539,\"height\":0.3802}},{\"title\":\"SUMMER ADVENTURE STORIES\",\"author\":\"Enid Blyton\",\"visible_text\":\"SUMMER ADVENTURE STORIES\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.4356,\"width\":0.0583,\"height\":0.3712}},{\"title\":\"THE SHORT-FICTION SCENARIO\",\"author\":\"Sergel Eisenstein\",\"visible_text\":\"THE SHORT-FICTION SCENARIO\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.4907,\"width\":0.0245,\"height\":0.3957}},{\"title\":\"Diary of a Wimpy Kid RODRICK RULES\",\"author\":\"JEFF KINNEY\",\"visible_text\":\"Diary of a Wimpy Kid RODRICK RULES\",\"uncertain\":false,\"box\":{\"top\":0.001,\"left\":0.5134,\"width\":0.0333,\"height\":0.3708}},{\"title\":\"love you anymore\",\"author\":\"Rithvik Singh\",\"visible_text\":\"love you anymore\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.5436,\"width\":0.0305,\"height\":0.3807}},{\"title\":\"Diary of a Wimpy Kid THE LONG HAUL\",\"author\":\"JEFF KINNEY\",\"visible_text\":\"Diary of a Wimpy Kid THE LONG HAUL\",\"uncertain\":false,\"box\":{\"top\":0.0006,\"left\":0.5739,\"width\":0.0301,\"height\":0.3813}},{\"title\":\"THE AUDACITY OF HOPE\",\"author\":\"BARACK OBAMA\",\"visible_text\":\"THE AUDACITY OF HOPE\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.596,\"width\":0.0638,\"height\":0.3941}},{\"title\":\"everyday confidence\",\"author\":null,\"visible_text\":\"everyday confidence\",\"uncertain\":false,\"box\":{\"top\":0.001,\"left\":0.6558,\"width\":0.0694,\"height\":0.3962}},{\"title\":\"Bad Day for Badger\",\"author\":null,\"visible_text\":\"Bad Day for Badger\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.7229,\"width\":0.0298,\"height\":0.3879}},{\"title\":\"Long Way Home\",\"author\":\"MORPURGO\",\"visible_text\":\"Long Way Home\",\"uncertain\":false,\"box\":{\"top\":0.0014,\"left\":0.7495,\"width\":0.0343,\"height\":0.4042}},{\"title\":\"Hundred Names\",\"author\":\"cecelia ahern\",\"visible_text\":\"Hundred Names\",\"uncertain\":false,\"box\":{\"top\":0.0007,\"left\":0.7834,\"width\":0.071,\"height\":0.4002}},{\"title\":\"The Lost SYMBOL\",\"author\":\"DAN BROWN\",\"visible_text\":\"The Lost SYMBOL\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.8465,\"width\":0.1171,\"height\":0.4501}}]}"
+      },
+      {
+        "tile_id": "tile-13",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"JOHN GRISHAM\",\"author\":\"JOHN GRISHAM\",\"visible_text\":\"JOHN GRISHAM\",\"uncertain\":true,\"box\":{\"top\":0.472,\"left\":0.001,\"width\":0.052,\"height\":0.354}},{\"title\":\"THE CHAMBER\",\"author\":\"JOHN GRISHAM\",\"visible_text\":\"THE CHAMBER\",\"uncertain\":false,\"box\":{\"top\":0.518,\"left\":0.16,\"width\":0.108,\"height\":0.355}},{\"title\":\"THE LION, THE WITCH AND THE WARDROBE\",\"author\":\"C.S. Lewis\",\"visible_text\":\"THE LION, THE WITCH AND THE WARDROBE\",\"uncertain\":false,\"box\":{\"top\":0.468,\"left\":0.407,\"width\":0.06,\"height\":0.435}},{\"title\":\"THE HORSE AND HIS BOY\",\"author\":\"C.S. Lewis\",\"visible_text\":\"THE HORSE AND HIS BOY\",\"uncertain\":false,\"box\":{\"top\":0.471,\"left\":0.485,\"width\":0.046,\"height\":0.46}},{\"title\":\"PRINCE CASPIAN\",\"author\":\"C.S. Lewis\",\"visible_text\":\"PRINCE CASPIAN\",\"uncertain\":false,\"box\":{\"top\":0.463,\"left\":0.505,\"width\":0.082,\"height\":0.443}},{\"title\":\"Inferno\",\"author\":\"DAN BROWN\",\"visible_text\":\"Inferno\",\"uncertain\":false,\"box\":{\"top\":0.508,\"left\":0.523,\"width\":0.169,\"height\":0.479}},{\"title\":\"ALICE IN WONDERLAND\",\"author\":\"Lewis Carroll\",\"visible_text\":\"ALICE IN WONDERLAND\",\"uncertain\":false,\"box\":{\"top\":0.662,\"left\":0.641,\"width\":0.045,\"height\":0.322}},{\"title\":\"MAPPILLAI\",\"author\":\"CARLO PIZZATI\",\"visible_text\":\"MAPPILLAI\",\"uncertain\":false,\"box\":{\"top\":0.531,\"left\":0.672,\"width\":0.081,\"height\":0.457}},{\"title\":\"The Herbal Alchemist's Handbook\",\"author\":\"HARRISON\",\"visible_text\":\"The Herbal Alchemist's Handbook\",\"uncertain\":false,\"box\":{\"top\":0.524,\"left\":0.724,\"width\":0.093,\"height\":0.468}},{\"title\":\"The GIRL WITH THE DRAGON TATTOO\",\"author\":\"STIEG LARSSON\",\"visible_text\":\"The GIRL WITH THE DRAGON TATTOO\",\"uncertain\":false,\"box\":{\"top\":0.567,\"left\":0.757,\"width\":0.113,\"height\":0.426}},{\"title\":\"ANGELS & DEMONS\",\"author\":\"DAN BROWN\",\"visible_text\":\"ANGELS & DEMONS\",\"uncertain\":false,\"box\":{\"top\":0.552,\"left\":0.838,\"width\":0.141,\"height\":0.439}},{\"title\":\"THE AUTHORIZED BIOGRAPHY\",\"author\":null,\"visible_text\":\"THE AUTHORIZED BIOGRAPHY\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.509,\"width\":0.122,\"height\":0.283}},{\"title\":\"A Practical Guide to GST ON TEXTILE\",\"author\":null,\"visible_text\":\"A Practical Guide to GST ON TEXTILE\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.604,\"width\":0.126,\"height\":0.298}},{\"title\":\"Romance\",\"author\":null,\"visible_text\":\"Romance\",\"uncertain\":true,\"box\":{\"top\":0.003,\"left\":0.407,\"width\":0.087,\"height\":0.291}}]}"
+      },
+      {
+        "tile_id": "tile-14",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Doomsday Conspiracy\",\"author\":\"Sidney Sheldon\",\"visible_text\":\"SIDNEY SHELDON THE DOOMSDAY CONSPIRACY\",\"uncertain\":false,\"box\":{\"top\":0.082,\"left\":0.046,\"width\":0.078,\"height\":0.536}},{\"title\":\"The Captain's Daughter\",\"author\":\"Leah Fleming\",\"visible_text\":\"The Captain's Daughter LEAH FLEMING\",\"uncertain\":false,\"box\":{\"top\":0.082,\"left\":0.119,\"width\":0.082,\"height\":0.534}},{\"title\":\"Maskerade\",\"author\":\"Terry Pratchett\",\"visible_text\":\"MASKERADE TERRY PRATCHETT\",\"uncertain\":false,\"box\":{\"top\":0.082,\"left\":0.201,\"width\":0.045,\"height\":0.535}},{\"title\":\"The Chronicles of Narnia\",\"author\":null,\"visible_text\":\"THE CHRONICLES OF NARNIA\",\"uncertain\":true,\"box\":{\"top\":0.155,\"left\":0.436,\"width\":0.063,\"height\":0.395}},{\"title\":\"Meghnad\",\"author\":null,\"visible_text\":\"मेघनाद\",\"uncertain\":false,\"box\":{\"top\":0.573,\"left\":0.375,\"width\":0.072,\"height\":0.427}},{\"title\":\"The Fry Chronicles\",\"author\":\"Stephen Fry\",\"visible_text\":\"The Fry Chronicles Stephen Fry\",\"uncertain\":false,\"box\":{\"top\":0.573,\"left\":0.433,\"width\":0.086,\"height\":0.427}},{\"title\":\"Inferno\",\"author\":\"Dan Brown\",\"visible_text\":\"DAN BROWN Inferno\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.528,\"width\":0.134,\"height\":0.281}},{\"title\":\"Alice's Adventures in Wonderland\",\"author\":\"Lewis Carroll\",\"visible_text\":\"ALICE'S ADVENTURES IN WONDERLAND Lewis Carroll\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.641,\"width\":0.045,\"height\":0.311}},{\"title\":\"The Girl with the Dragon Tattoo\",\"author\":null,\"visible_text\":\"The GIRL with the DRAGON TATTOO\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.767,\"width\":0.089,\"height\":0.231}},{\"title\":\"Angels & Demons\",\"author\":\"Dan Brown\",\"visible_text\":\"BROWN DEMONS\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.842,\"width\":0.103,\"height\":0.198}},{\"title\":\"The Scorch Trials\",\"author\":\"James Dashner\",\"visible_text\":\"JAMES DASHNER SCORCH TRIALS\",\"uncertain\":false,\"box\":{\"top\":0.529,\"left\":0.596,\"width\":0.052,\"height\":0.463}},{\"title\":\"The Da Vinci Code\",\"author\":\"Dan Brown\",\"visible_text\":\"DAN BROWN THE DA VINCI CODE\",\"uncertain\":false,\"box\":{\"top\":0.485,\"left\":0.635,\"width\":0.088,\"height\":0.505}},{\"title\":\"Leading\",\"author\":\"Alex Ferguson\",\"visible_text\":\"ALEX FERGUSON LEADING WITH MICHAEL MORITZ\",\"uncertain\":false,\"box\":{\"top\":0.49,\"left\":0.724,\"width\":0.106,\"height\":0.51}}]}"
+      },
+      {
+        "tile_id": "tile-15",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"WHEN COAL TURNED GOLD\",\"author\":\"ARTHA SARATHI BHATTACHARYYA\",\"visible_text\":\"WHEN COAL TURNED GOLD ARTHA SARATHI BHATTACHARYYA\",\"uncertain\":false,\"box\":{\"top\":0.228,\"left\":0.366,\"width\":0.111,\"height\":0.575}},{\"title\":\"Tears of the Giraffe\",\"author\":\"Alexander McCall Smith\",\"visible_text\":\"Tears of the Giraffe Alexander McCall Smith\",\"uncertain\":false,\"box\":{\"top\":0.276,\"left\":0.443,\"width\":0.071,\"height\":0.468}},{\"title\":\"The Lion, the Witch and the Wardrobe\",\"author\":\"C S LEWIS\",\"visible_text\":\"The Lion, the Witch and the Wardrobe C S LEWIS\",\"uncertain\":false,\"box\":{\"top\":0.229,\"left\":0.529,\"width\":0.057,\"height\":0.462}},{\"title\":\"THE PHANTOM TOLLBOOTH\",\"author\":\"NORTON JUSTER\",\"visible_text\":\"THE PHANTOM TOLLBOOTH NORTON JUSTER\",\"uncertain\":false,\"box\":{\"top\":0.226,\"left\":0.563,\"width\":0.06,\"height\":0.462}},{\"title\":\"THE STARS SHINE DOWN\",\"author\":\"SIDNEY SHELDON\",\"visible_text\":\"THE STARS SHINE DOWN SIDNEY SHELDON\",\"uncertain\":false,\"box\":{\"top\":0.227,\"left\":0.598,\"width\":0.09,\"height\":0.485}},{\"title\":\"A Wing and a Prayer\",\"author\":\"Lyn Andrews\",\"visible_text\":\"A Wing and a Prayer Lyn Andrews\",\"uncertain\":false,\"box\":{\"top\":0.227,\"left\":0.686,\"width\":0.063,\"height\":0.467}},{\"title\":\"the woman in the window\",\"author\":\"A.J. FINN\",\"visible_text\":\"the woman in the window A.J. FINN\",\"uncertain\":false,\"box\":{\"top\":0.269,\"left\":0.732,\"width\":0.088,\"height\":0.457}},{\"title\":\"THE GIRLS' BOOK OF SPELLS\",\"author\":\"RACHEL ELLIOT\",\"visible_text\":\"THE GIRLS' BOOK OF SPELLS RACHEL ELLIOT\",\"uncertain\":false,\"box\":{\"top\":0.304,\"left\":0.829,\"width\":0.072,\"height\":0.447}},{\"title\":\"OUR GAME\",\"author\":\"le Carré\",\"visible_text\":\"OUR GAME le Carré\",\"uncertain\":false,\"box\":{\"top\":0.207,\"left\":0.887,\"width\":0.106,\"height\":0.569}},{\"title\":\"The Fry Chronicle\",\"author\":null,\"visible_text\":\"The Fry Chronicle\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.43,\"width\":0.081,\"height\":0.228}}]}"
+      },
+      {
+        "tile_id": "tile-16",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\": [{\"title\": \"R GAME\", \"author\": null, \"visible_text\": \"R GAME\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.887, \"width\": 0.089, \"height\": 0.313}}, {\"title\": \"SPELLS\", \"author\": \"RACHEL ELLIOT\", \"visible_text\": \"SPELLS\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.829, \"width\": 0.05, \"height\": 0.301}}, {\"title\": \"Wing and a Prayer\", \"author\": null, \"visible_text\": \"Wing and a Prayer\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.672, \"width\": 0.07, \"height\": 0.233}}, {\"title\": \"THE STARS SHINE DOWN\", \"author\": null, \"visible_text\": \"THE STARS SHINE DOWN\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.589, \"width\": 0.088, \"height\": 0.248}}, {\"title\": \"tch and the Wardrobe\", \"author\": null, \"visible_text\": \"tch and the Wardrobe\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.53, \"width\": 0.045, \"height\": 0.229}}, {\"title\": \"giraffe\", \"author\": \"Alexander McCall Smith\", \"visible_text\": \"giraffe\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.443, \"width\": 0.052, \"height\": 0.282}}, {\"title\": \"URNED GOLD\", \"author\": \"ARTHA SARATHI BHATTACHARYYA\", \"visible_text\": \"URNED GOLD\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.37, \"width\": 0.087, \"height\": 0.339}}, {\"title\": \"HORSES\", \"author\": \"GREG BUCHANAN\", \"visible_text\": \"HORSES\", \"uncertain\": false, \"box\": {\"top\": 0.0, \"left\": 0.0, \"width\": 0.155, \"height\": 0.331}}]}"
+      },
+      {
+        "tile_id": "tile-17",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"ALEX\",\"author\":null,\"visible_text\":\"ALE\",\"uncertain\":false,\"box\":{\"top\":0.898,\"left\":0.392,\"width\":0.05,\"height\":0.102}},{\"title\":\"CH Sp\",\"author\":null,\"visible_text\":\"CH Sp\",\"uncertain\":true,\"box\":{\"top\":0.829,\"left\":0.52,\"width\":0.155,\"height\":0.171}},{\"title\":\"K\",\"author\":null,\"visible_text\":\"K\",\"uncertain\":true,\"box\":{\"top\":0.869,\"left\":0.673,\"width\":0.068,\"height\":0.131}},{\"title\":\"CY DAY Harper\",\"author\":null,\"visible_text\":\"CY DAY Harper\",\"uncertain\":true,\"box\":{\"top\":0.887,\"left\":0.728,\"width\":0.076,\"height\":0.113}},{\"title\":\"ERADE\",\"author\":null,\"visible_text\":\"ERADE\",\"uncertain\":true,\"box\":{\"top\":0.88,\"left\":0.88,\"width\":0.054,\"height\":0.12}},{\"title\":\"JOHN GRISHAM THE CHAMBER\",\"author\":\"JOHN GRISHAM\",\"visible_text\":\"JOHN GRISHAM THE CHAMBER\",\"uncertain\":false,\"box\":{\"top\":0.49,\"left\":0.584,\"width\":0.366,\"height\":0.39}}]}"
+      },
+      {
+        "tile_id": "tile-18",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Inheritance of Loss\",\"author\":\"Kiran Desai\",\"visible_text\":\"KIRAN DESAI THE INHERITANCE OF LOSS\",\"uncertain\":false,\"box\":{\"top\":0.071,\"left\":0.655,\"width\":0.077,\"height\":0.528}},{\"title\":\"The Doomsday Conspiracy\",\"author\":\"Sidney Sheldon\",\"visible_text\":\"THE DOOMSDAY CONSPIRACY SIDNEY SHELDON\",\"uncertain\":false,\"box\":{\"top\":0.082,\"left\":0.729,\"width\":0.076,\"height\":0.539}},{\"title\":\"The Captain's Daughter\",\"author\":\"Leah Fleming\",\"visible_text\":\"LEAH FLEMING The Captain's Daughter\",\"uncertain\":false,\"box\":{\"top\":0.079,\"left\":0.803,\"width\":0.08,\"height\":0.541}},{\"title\":\"Maskerade\",\"author\":\"Terry Pratchett\",\"visible_text\":\"MASKERADE TERRY PRATCHETT\",\"uncertain\":false,\"box\":{\"top\":0.081,\"left\":0.884,\"width\":0.046,\"height\":0.536}},{\"title\":\"All Creatures Great & Small\",\"author\":\"Alex James\",\"visible_text\":\"ALEX JAMES ALL CREATURES GREAT & SMALL\",\"uncertain\":false,\"box\":{\"top\":0.098,\"left\":0.355,\"width\":0.087,\"height\":0.493}},{\"title\":\"The Gods of Guilt\",\"author\":\"Michael Connelly\",\"visible_text\":\"MICHAEL CONNELLY THE GODS OF GUILT\",\"uncertain\":false,\"box\":{\"top\":0.31,\"left\":0.418,\"width\":0.094,\"height\":0.264}},{\"title\":\"Speaking for Myself\",\"author\":\"Cherie Blair\",\"visible_text\":\"CHERIE BLAIR Speaking for Myself\",\"uncertain\":false,\"box\":{\"top\":0.029,\"left\":0.491,\"width\":0.117,\"height\":0.538}},{\"title\":\"Speaking for Myself\",\"author\":\"Cherie Blair\",\"visible_text\":\"Cherie Blair Speaking\",\"uncertain\":true,\"box\":{\"top\":0.04,\"left\":0.574,\"width\":0.103,\"height\":0.545}},{\"title\":\"Hannibal\",\"author\":\"Thomas Harris\",\"visible_text\":\"THOMAS HARRIS HANNIBAL\",\"uncertain\":false,\"box\":{\"top\":0.632,\"left\":0.375,\"width\":0.092,\"height\":0.364}},{\"title\":\"Tell Me Your Dreams\",\"author\":\"Sidney Sheldon\",\"visible_text\":\"SIDNEY SHELDON TELL ME YOUR DREAMS\",\"uncertain\":false,\"box\":{\"top\":0.627,\"left\":0.457,\"width\":0.068,\"height\":0.37}},{\"title\":\"Brilliance of the Moon\",\"author\":\"Lian Hearn\",\"visible_text\":\"Brilliance of the Moon LIAN H\",\"uncertain\":false,\"box\":{\"top\":0.629,\"left\":0.513,\"width\":0.073,\"height\":0.368}},{\"title\":\"Before I Go to Sleep\",\"author\":\"S J Watson\",\"visible_text\":\"S J WATSON BEFORE I GO TO SLEEP\",\"uncertain\":false,\"box\":{\"top\":0.643,\"left\":0.612,\"width\":0.075,\"height\":0.352}},{\"title\":\"The Woman in White\",\"author\":\"Wilkie Collins\",\"visible_text\":\"The Woman in White\",\"uncertain\":false,\"box\":{\"top\":0.702,\"left\":0.748,\"width\":0.126,\"height\":0.297}},{\"title\":\"Eeyore Finds the Wolery\",\"author\":\"A.A. Milne\",\"visible_text\":\"A.A. Milne EEYORE finds the Wolery\",\"uncertain\":false,\"box\":{\"top\":0.669,\"left\":0.198,\"width\":0.183,\"height\":0.331}}]}"
+      },
+      {
+        "tile_id": "tile-19",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"The Woman in White\",\"author\":\"Wilkie Collins\",\"visible_text\":\"The Woman in White WILKIE COLLINS\",\"uncertain\":false,\"box\":{\"top\":0.007557348986259416,\"left\":0.6865248552309195,\"width\":0.18378877661295286,\"height\":0.28318621421469145}},{\"title\":\"Before I Go To Sleep\",\"author\":\"S J WATSON\",\"visible_text\":\"SJ WATS BEFORE I GO\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.6133333333333333,\"width\":0.07633215286280456,\"height\":0.24508493198942542}},{\"title\":\"Across the Nightingale Floor\",\"author\":\"LIAN HEARN\",\"visible_text\":\"f the Moon LIAN HEARN\",\"uncertain\":true,\"box\":{\"top\":0.008453472288307283,\"left\":0.5097495579309228,\"width\":0.15876326071415663,\"height\":0.31845115206584285}},{\"title\":\"Tell Me Your Dreams\",\"author\":null,\"visible_text\":\"TELL ME YOUR DREAMS\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.44976722212950523,\"width\":0.05739818815152837,\"height\":0.29792036496901844}},{\"title\":\"Hannibal\",\"author\":\"THOMAS HARRIS\",\"visible_text\":\"MAS HARRIS ANNIBAL\",\"uncertain\":false,\"box\":{\"top\":0.005118742879555135,\"left\":0.37021670986064137,\"width\":0.0898563725556947,\"height\":0.29424683515437887}},{\"title\":\"Eeyore Finds the Wolery\",\"author\":null,\"visible_text\":\"EEYORE finds the Wolery\",\"uncertain\":false,\"box\":{\"top\":0.003921764797071276,\"left\":0.19830501865917415,\"width\":0.17891295175657788,\"height\":0.2227161726715456}},{\"title\":\"What Katy Did\",\"author\":\"Susan M. Coolidge\",\"visible_text\":\"WHAT KATY DID Susan M. Coolidge\",\"uncertain\":false,\"box\":{\"top\":0.26477038166946654,\"left\":0.01026090726888497,\"width\":0.05586687063852086,\"height\":0.41908235212555434}},{\"title\":\"The Thirty-Nine Steps\",\"author\":null,\"visible_text\":\"THE THIRTY-NINE STEPS\",\"uncertain\":false,\"box\":{\"top\":0.2882522771613588,\"left\":0.00045543666687729227,\"width\":0.03362146914561074,\"height\":0.36838843914840807}},{\"title\":\"Sixteen Horses\",\"author\":\"GREG BUCHANAN\",\"visible_text\":\"SIXTEEN HORSES GREG BUCHANAN\",\"uncertain\":false,\"box\":{\"top\":0.30138986259416173,\"left\":0.6152876612952864,\"width\":0.21980838198642735,\"height\":0.49015949514652233}},{\"title\":\"Agent 21: Codebreaker\",\"author\":\"CHRIS RYAN\",\"visible_text\":\"CHRIS RYAN AGENT 21 CODEBREAKER\",\"uncertain\":false,\"box\":{\"top\":0.3346513476483569,\"left\":0.548545890885193,\"width\":0.06173373468532057,\"height\":0.4497354972584102}},{\"title\":\"Stolen\",\"author\":\"LESLEY PEARSE\",\"visible_text\":\"LESLEY PEARSE Stolen\",\"uncertain\":false,\"box\":{\"top\":0.35418182245353597,\"left\":0.49909289297359265,\"width\":0.061986566089776943,\"height\":0.4178553013095368}},{\"title\":\"The High Lord\",\"author\":\"TRUDI CANAVAN\",\"visible_text\":\"THE HIGH LORD TRUDI CANAVAN\",\"uncertain\":false,\"box\":{\"top\":0.32356499878233775,\"left\":0.34752834674751415,\"width\":0.16013444458316335,\"height\":0.4632049618177431}}]}"
+      },
+      {
+        "tile_id": "tile-20",
+        "pass": "verify",
+        "image_size": [
+          1400,
+          1400
+        ],
+        "complete": true,
+        "response_text": "{\"books\":[{\"title\":\"High Lord\",\"author\":\"Trudi Canavan\",\"visible_text\":\"IGH LORD\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.354,\"width\":0.147,\"height\":0.323}},{\"title\":\"Stolen\",\"author\":\"Lesley Pearse\",\"visible_text\":\"SLEY PEARSE Stolen\",\"uncertain\":false,\"box\":{\"top\":0.0,\"left\":0.499,\"width\":0.05,\"height\":0.301}},{\"title\":\"Agent 21 Codebreaker\",\"author\":null,\"visible_text\":\"AGENT CODEBREAKER\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.548,\"width\":0.063,\"height\":0.326}},{\"title\":\"Sixteen Horses\",\"author\":\"Greg Buchanan\",\"visible_text\":\"EN HORSES GREG BUCHANAN\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.617,\"width\":0.222,\"height\":0.323}},{\"title\":\"The Da Vinci Code\",\"author\":\"Dan Brown\",\"visible_text\":\"THE VIN OD BR\",\"uncertain\":true,\"box\":{\"top\":0.0,\"left\":0.822,\"width\":0.054,\"height\":0.22}}]}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+deploy_straivedemo:
+  stage: deploy
+  tags:
+    - straivedemo13
+  variables:
+    GIT_DEPTH: "1" # Keeps the initial git clone fast
+  script:
+    - echo "=== Starting Deployment ==="
+    - >
+      rsync -av --chmod=D775,F664
+      --exclude='.git/'
+      --exclude='.gitlab-ci.yml'
+      --exclude='.gitignore'
+      --exclude='.env'
+      --exclude='venv/'
+      ./ /data/html/book-shelf-demo/
+    
+    - cd /data/html/book-shelf-demo/
+    - sudo /usr/local/bin/restart-app app-book-shelf-demo
+  
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'

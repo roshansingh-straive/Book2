@@ -1,0 +1,1318 @@
+{
+  "bay_id": "bay_f2",
+  "bay_code": "F2",
+  "bay_name": "Bay F2 · Manga & Pop Culture",
+  "photo_filename": "c.png",
+  "photo_url": "/photos/c.png",
+  "mode": "replay",
+  "scanned_at": "2026-10-04",
+  "model": "Claude Opus 5.5",
+  "effort": "high",
+  "inference_duration_seconds": null,
+  "tokens_used": null,
+  "estimated_cost_usd": null,
+  "selection_reason": "Use Flash extended thinking for easy shelves, Opus high for medium shelves, and the Opus high single-photo experiment for hard shelves. Selected by difficulty-level results, not per-photo best scores.",
+  "source": {
+    "source_path": "results/exp1-run2/details/claude-opus-5.5__high.json",
+    "interface": "Claude.ai web app (incognito chat), driven by Claude Code via Claude in Chrome (Brave)",
+    "original_mode": "high",
+    "source_date": "2026-10-04"
+  },
+  "harness": {
+    "native_resolution": false,
+    "tile_count": 0,
+    "calls_completed": 0,
+    "rotated_verification": false,
+    "measured_accuracy": null
+  },
+  "disclosure": "Saved benchmark predictions. No live model call or zoom verification. Book positions and confidence were not annotated; per-photo cost and latency were not measured.",
+  "comparison_version": 5,
+  "reading_mode": "verified",
+  "recognition_readings": [
+    {
+      "title": "The Book of Man",
+      "author": "Osho",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Perfect Us",
+      "author": "Durjoy Datta",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Attitude Is Your Superpower",
+      "author": "Eduardo Clemente",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Disciplined Trader",
+      "author": "Mark Douglas",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Cruel Prince",
+      "author": "Holly Black",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "$100M Money Models",
+      "author": "Alex Hormozi",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Art of Reading Minds",
+      "author": "Henrik Fexeus",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Reframe Your Brain",
+      "author": "Scott Adams",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Ikigai",
+      "author": "Héctor García and Francesc Miralles",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Don't Believe Everything You Think",
+      "author": "Joseph Nguyen",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Manifest Now",
+      "author": "Idil Ahmed",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Ex",
+      "author": "Freida McFadden",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Hostage",
+      "author": "Eli Sharabi",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Here, There and Everywhere",
+      "author": "Sudha Murty",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Do Not Disturb",
+      "author": "Freida McFadden",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Master Your Life",
+      "author": "Nick Trenton",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The Art of Detachment",
+      "author": "Shubham Kumar Singh",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Tuesdays with Morrie",
+      "author": "Mitch Albom",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Dragon Ball Super",
+      "author": "Akira Toriyama and Toyotarou",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    },
+    {
+      "title": "Attack on Titan Omnibus",
+      "author": "Hajime Isayama",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay"
+    }
+  ],
+  "unresolved_readings": [],
+  "candidate_cleanup": {
+    "input_groups": 25,
+    "displayed_titles": 25,
+    "unresolved_groups": 0,
+    "merged_alias_groups": 0
+  },
+  "comparison_suggestion": null,
+  "planogram_items": [
+    {
+      "sku": "SKU-5C37196E2546",
+      "title": "Attitude is Your Superpower",
+      "author": "Eduardo Clemente",
+      "assigned_bay_id": "bay_f2",
+      "price": 21.24,
+      "sales_velocity_units_per_day": 1.5,
+      "simulated_on_hand": 3,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-54D87B99454F",
+      "title": "Attack on Titan: Omnibus (Volumes 1-2-3)",
+      "author": "Hajime Isayama",
+      "assigned_bay_id": "bay_f2",
+      "price": 17.45,
+      "sales_velocity_units_per_day": 2.7,
+      "simulated_on_hand": 0,
+      "system_status": "out_of_stock_in_system",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-DDF509B177F3",
+      "title": "The Perfect Us",
+      "author": "Durjoy Datta",
+      "assigned_bay_id": "bay_f2",
+      "price": 20.82,
+      "sales_velocity_units_per_day": 3.0,
+      "simulated_on_hand": 3,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-A8E35D8586F8",
+      "title": "The Book of Man",
+      "author": "Osho",
+      "assigned_bay_id": "bay_f2",
+      "price": 25.08,
+      "sales_velocity_units_per_day": 1.6,
+      "simulated_on_hand": 9,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-4C497F6697C4",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "assigned_bay_id": "bay_f2",
+      "price": 29.01,
+      "sales_velocity_units_per_day": 1.6,
+      "simulated_on_hand": 4,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-31642E1A9DEC",
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "assigned_bay_id": "bay_f2",
+      "price": 21.74,
+      "sales_velocity_units_per_day": 2.5,
+      "simulated_on_hand": 11,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-FE3DAE4BAE13",
+      "title": "Tuesdays with Morrie",
+      "author": "Mitch Albom",
+      "assigned_bay_id": "bay_f2",
+      "price": 19.8,
+      "sales_velocity_units_per_day": 2.0,
+      "simulated_on_hand": 11,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-6107CD0851AB",
+      "title": "The Art of Detachment",
+      "author": "Shubham Kumar Singh",
+      "assigned_bay_id": "bay_f2",
+      "price": 17.85,
+      "sales_velocity_units_per_day": 2.1,
+      "simulated_on_hand": 13,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-09BAAF562C6C",
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "assigned_bay_id": "bay_f2",
+      "price": 27.25,
+      "sales_velocity_units_per_day": 2.7,
+      "simulated_on_hand": 5,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-D209A6A110CA",
+      "title": "Master Your Life",
+      "author": "Nick Trenton",
+      "assigned_bay_id": "bay_f2",
+      "price": 23.28,
+      "sales_velocity_units_per_day": 2.6,
+      "simulated_on_hand": 6,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-7ED440E62052",
+      "title": "Do Not Disturb",
+      "author": "Freida McFadden",
+      "assigned_bay_id": "bay_f2",
+      "price": 15.68,
+      "sales_velocity_units_per_day": 3.6,
+      "simulated_on_hand": 4,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-4586CA3E4677",
+      "title": "Here, There and Everywhere",
+      "author": "Sudha Murty",
+      "assigned_bay_id": "bay_f2",
+      "price": 26.11,
+      "sales_velocity_units_per_day": 1.3,
+      "simulated_on_hand": 4,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-25031BB13384",
+      "title": "Hostage",
+      "author": "Eli Sharabi",
+      "assigned_bay_id": "bay_f2",
+      "price": 16.65,
+      "sales_velocity_units_per_day": 0.7,
+      "simulated_on_hand": 8,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-F6227279140E",
+      "title": "The Ex",
+      "author": "Freida McFadden",
+      "assigned_bay_id": "bay_f2",
+      "price": 25.0,
+      "sales_velocity_units_per_day": 3.1,
+      "simulated_on_hand": 8,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-57B417DD9A6C",
+      "title": "Manifest Now",
+      "author": "Idil Ahmed",
+      "assigned_bay_id": "bay_f2",
+      "price": 21.46,
+      "sales_velocity_units_per_day": 2.6,
+      "simulated_on_hand": 4,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-42F05B2C33A7",
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "assigned_bay_id": "bay_f2",
+      "price": 26.93,
+      "sales_velocity_units_per_day": 1.8,
+      "simulated_on_hand": 7,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-FF8BDC5C3657",
+      "title": "Don't Believe Everything You Think",
+      "author": "Joseph Nguyen",
+      "assigned_bay_id": "bay_f2",
+      "price": 18.39,
+      "sales_velocity_units_per_day": 2.7,
+      "simulated_on_hand": 1,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-43B1FA8F1920",
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "assigned_bay_id": "bay_f2",
+      "price": 30.07,
+      "sales_velocity_units_per_day": 3.4,
+      "simulated_on_hand": 2,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-FA06E568EF42",
+      "title": "Ikigai",
+      "author": "Héctor García & Francesc Miralles",
+      "assigned_bay_id": "bay_f2",
+      "price": 28.01,
+      "sales_velocity_units_per_day": 1.3,
+      "simulated_on_hand": 13,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-F82EBEBC8BE2",
+      "title": "Reframe Your Brain",
+      "author": "Scott Adams",
+      "assigned_bay_id": "bay_f2",
+      "price": 31.24,
+      "sales_velocity_units_per_day": 2.3,
+      "simulated_on_hand": 1,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-E25DEAF0BB04",
+      "title": "The Art of Reading Minds",
+      "author": "Henrik Fexeus",
+      "assigned_bay_id": "bay_f2",
+      "price": 24.03,
+      "sales_velocity_units_per_day": 3.5,
+      "simulated_on_hand": 2,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-FDFB6D637F7B",
+      "title": "$100M Money Models",
+      "author": "Alex Hormozi",
+      "assigned_bay_id": "bay_f2",
+      "price": 22.22,
+      "sales_velocity_units_per_day": 3.2,
+      "simulated_on_hand": 11,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-D118D4877448",
+      "title": "Dragon Ball Super (Vol. 23)",
+      "author": "Akira Toriyama / Toyotarou",
+      "assigned_bay_id": "bay_f2",
+      "price": 23.56,
+      "sales_velocity_units_per_day": 2.4,
+      "simulated_on_hand": 6,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-FAF5158C0654",
+      "title": "The Cruel Prince",
+      "author": "Holly Black",
+      "assigned_bay_id": "bay_f2",
+      "price": 31.1,
+      "sales_velocity_units_per_day": 3.5,
+      "simulated_on_hand": 10,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-C9244ADEFAF8",
+      "title": "जादू (The Magic - Hindi Edition)",
+      "author": "Rhonda Byrne",
+      "assigned_bay_id": "bay_f2",
+      "price": 28.67,
+      "sales_velocity_units_per_day": 3.5,
+      "simulated_on_hand": 7,
+      "system_status": "in_stock",
+      "physically_on_shelf": true
+    },
+    {
+      "sku": "SKU-91B9DCF0A9FE",
+      "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+      "author": "Koyoharu Gotouge",
+      "assigned_bay_id": "bay_f2",
+      "price": 11.99,
+      "sales_velocity_units_per_day": 3.5,
+      "simulated_on_hand": 12,
+      "system_status": "phantom",
+      "physically_on_shelf": false,
+      "days_since_stockout": 2
+    },
+    {
+      "sku": "SKU-760443F332F2",
+      "title": "Chainsaw Man, Vol. 1",
+      "author": "Tatsuki Fujimoto",
+      "assigned_bay_id": "bay_f2",
+      "price": 11.99,
+      "sales_velocity_units_per_day": 2.9,
+      "simulated_on_hand": 0,
+      "system_status": "out_of_stock",
+      "physically_on_shelf": false,
+      "days_since_stockout": 3
+    },
+    {
+      "sku": "SKU-824C4F86A80E",
+      "title": "Jujutsu Kaisen, Vol. 1",
+      "author": "Gege Akutami",
+      "assigned_bay_id": "bay_f2",
+      "price": 11.99,
+      "sales_velocity_units_per_day": 3.2,
+      "simulated_on_hand": 0,
+      "system_status": "out_of_stock",
+      "physically_on_shelf": false,
+      "days_since_stockout": 4
+    }
+  ],
+  "shelf_items": [
+    {
+      "title": "The Book of Man",
+      "author": "Osho",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Book of Man"
+      ],
+      "id": "bay_f2-item-1",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Book of Man",
+      "sku": "SKU-A8E35D8586F8",
+      "price": 25.08,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The Perfect Us",
+      "author": "Durjoy Datta",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Perfect Us"
+      ],
+      "id": "bay_f2-item-2",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Perfect Us",
+      "sku": "SKU-DDF509B177F3",
+      "price": 20.82,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Attitude Is Your Superpower",
+      "author": "Eduardo Clemente",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Attitude Is Your Superpower"
+      ],
+      "id": "bay_f2-item-3",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Attitude is Your Superpower",
+      "sku": "SKU-5C37196E2546",
+      "price": 21.24,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The Disciplined Trader",
+      "author": "Mark Douglas",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Disciplined Trader"
+      ],
+      "id": "bay_f2-item-4",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "misplaced",
+      "status_label": "Assigned to another shelf",
+      "catalogue_title": "The Disciplined Trader",
+      "sku": "SKU-38BEA5675677",
+      "price": 23.13,
+      "misplaced_reason": "Selected shelf: Bay F2 · Manga & Pop Culture. Catalogue assignment: Bay B1 · Business & Finance.",
+      "target_bay_name": "Bay B1 · Business & Finance"
+    },
+    {
+      "title": "The Cruel Prince",
+      "author": "Holly Black",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Cruel Prince"
+      ],
+      "id": "bay_f2-item-5",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Cruel Prince",
+      "sku": "SKU-FAF5158C0654",
+      "price": 31.1,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "$100M Money Models",
+      "author": "Alex Hormozi",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "$100M Money Models"
+      ],
+      "id": "bay_f2-item-6",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "$100M Money Models",
+      "sku": "SKU-FDFB6D637F7B",
+      "price": 22.22,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The Art of Reading Minds",
+      "author": "Henrik Fexeus",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Art of Reading Minds"
+      ],
+      "id": "bay_f2-item-7",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Art of Reading Minds",
+      "sku": "SKU-E25DEAF0BB04",
+      "price": 24.03,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Reframe Your Brain",
+      "author": "Scott Adams",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Reframe Your Brain"
+      ],
+      "id": "bay_f2-item-8",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Reframe Your Brain",
+      "sku": "SKU-F82EBEBC8BE2",
+      "price": 31.24,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Ikigai",
+      "author": "Héctor García and Francesc Miralles",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Ikigai"
+      ],
+      "id": "bay_f2-item-9",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Ikigai",
+      "sku": "SKU-FA06E568EF42",
+      "price": 28.01,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Song of Achilles"
+      ],
+      "id": "bay_f2-item-10",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Song of Achilles",
+      "sku": "SKU-43B1FA8F1920",
+      "price": 30.07,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Don't Believe Everything You Think",
+      "author": "Joseph Nguyen",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Don't Believe Everything You Think"
+      ],
+      "id": "bay_f2-item-11",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Don't Believe Everything You Think",
+      "sku": "SKU-FF8BDC5C3657",
+      "price": 18.39,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Man's Search for Meaning"
+      ],
+      "id": "bay_f2-item-12",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Man's Search for Meaning",
+      "sku": "SKU-42F05B2C33A7",
+      "price": 26.93,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Manifest Now",
+      "author": "Idil Ahmed",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Manifest Now"
+      ],
+      "id": "bay_f2-item-13",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Manifest Now",
+      "sku": "SKU-57B417DD9A6C",
+      "price": 21.46,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The Ex",
+      "author": "Freida McFadden",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Ex"
+      ],
+      "id": "bay_f2-item-14",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Ex",
+      "sku": "SKU-F6227279140E",
+      "price": 25.0,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Hostage",
+      "author": "Eli Sharabi",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Hostage"
+      ],
+      "id": "bay_f2-item-15",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Hostage",
+      "sku": "SKU-25031BB13384",
+      "price": 16.65,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Here, There and Everywhere",
+      "author": "Sudha Murty",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Here, There and Everywhere"
+      ],
+      "id": "bay_f2-item-16",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Here, There and Everywhere",
+      "sku": "SKU-4586CA3E4677",
+      "price": 26.11,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Do Not Disturb",
+      "author": "Freida McFadden",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Do Not Disturb"
+      ],
+      "id": "bay_f2-item-17",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Do Not Disturb",
+      "sku": "SKU-7ED440E62052",
+      "price": 15.68,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Master Your Life",
+      "author": "Nick Trenton",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Master Your Life"
+      ],
+      "id": "bay_f2-item-18",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Master Your Life",
+      "sku": "SKU-D209A6A110CA",
+      "price": 23.28,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Never Let Me Go"
+      ],
+      "id": "bay_f2-item-19",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Never Let Me Go",
+      "sku": "SKU-09BAAF562C6C",
+      "price": 27.25,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The Art of Detachment",
+      "author": "Shubham Kumar Singh",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Art of Detachment"
+      ],
+      "id": "bay_f2-item-20",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The Art of Detachment",
+      "sku": "SKU-6107CD0851AB",
+      "price": 17.85,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Tuesdays with Morrie",
+      "author": "Mitch Albom",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Tuesdays with Morrie"
+      ],
+      "id": "bay_f2-item-21",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Tuesdays with Morrie",
+      "sku": "SKU-FE3DAE4BAE13",
+      "price": 19.8,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The 48 Laws of Power"
+      ],
+      "id": "bay_f2-item-22",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "The 48 Laws of Power",
+      "sku": "SKU-31642E1A9DEC",
+      "price": 21.74,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Harry Potter and the Order of the Phoenix"
+      ],
+      "id": "bay_f2-item-23",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "matched",
+      "status_label": "Title matched",
+      "catalogue_title": "Harry Potter and the Order of the Phoenix",
+      "sku": "SKU-4C497F6697C4",
+      "price": 29.01,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Dragon Ball Super",
+      "author": "Akira Toriyama and Toyotarou",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Dragon Ball Super"
+      ],
+      "id": "bay_f2-item-24",
+      "review_reasons": [
+        "catalogue_unlisted"
+      ],
+      "catalogue_status": "unlisted",
+      "status": "unexpected",
+      "status_label": "Not in demo catalogue",
+      "catalogue_title": null,
+      "sku": null,
+      "price": null,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    },
+    {
+      "title": "Attack on Titan Omnibus",
+      "author": "Hajime Isayama",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "Attack on Titan Omnibus"
+      ],
+      "id": "bay_f2-item-25",
+      "review_reasons": [
+        "catalogue_unlisted"
+      ],
+      "catalogue_status": "unlisted",
+      "status": "unexpected",
+      "status_label": "Not in demo catalogue",
+      "catalogue_title": null,
+      "sku": null,
+      "price": null,
+      "misplaced_reason": null,
+      "target_bay_name": null
+    }
+  ],
+  "misplaced_items": [
+    {
+      "title": "The Disciplined Trader",
+      "author": "Mark Douglas",
+      "confidence": null,
+      "box": null,
+      "box_source": "unavailable",
+      "verification_status": "benchmark_replay",
+      "title_variants": [
+        "The Disciplined Trader"
+      ],
+      "id": "bay_f2-item-4",
+      "review_reasons": [],
+      "catalogue_status": "matched",
+      "status": "misplaced",
+      "status_label": "Assigned to another shelf",
+      "catalogue_title": "The Disciplined Trader",
+      "sku": "SKU-38BEA5675677",
+      "price": 23.13,
+      "misplaced_reason": "Selected shelf: Bay F2 · Manga & Pop Culture. Catalogue assignment: Bay B1 · Business & Finance.",
+      "target_bay_name": "Bay B1 · Business & Finance"
+    }
+  ],
+  "missing_items": [
+    {
+      "sku": "SKU-54D87B99454F",
+      "title": "Attack on Titan: Omnibus (Volumes 1-2-3)",
+      "author": "Hajime Isayama",
+      "planogram_bay_id": "bay_f2",
+      "simulated_on_hand": 0,
+      "price": 17.45,
+      "sales_velocity": 2.7,
+      "is_phantom_inventory": false,
+      "reason": "Title not identified in this photo; it may be unreadable or occluded.",
+      "action": "Check shelf before changing inventory",
+      "requires_review": true
+    },
+    {
+      "sku": "SKU-D118D4877448",
+      "title": "Dragon Ball Super (Vol. 23)",
+      "author": "Akira Toriyama / Toyotarou",
+      "planogram_bay_id": "bay_f2",
+      "simulated_on_hand": 6,
+      "price": 23.56,
+      "sales_velocity": 2.4,
+      "is_phantom_inventory": false,
+      "reason": "Title not identified in this photo; it may be unreadable or occluded.",
+      "action": "Check shelf before changing inventory",
+      "requires_review": true
+    },
+    {
+      "sku": "SKU-C9244ADEFAF8",
+      "title": "जादू (The Magic - Hindi Edition)",
+      "author": "Rhonda Byrne",
+      "planogram_bay_id": "bay_f2",
+      "simulated_on_hand": 7,
+      "price": 28.67,
+      "sales_velocity": 3.5,
+      "is_phantom_inventory": false,
+      "reason": "Title not identified in this photo; it may be unreadable or occluded.",
+      "action": "Check shelf before changing inventory",
+      "requires_review": true
+    },
+    {
+      "sku": "SKU-91B9DCF0A9FE",
+      "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+      "author": "Koyoharu Gotouge",
+      "planogram_bay_id": "bay_f2",
+      "simulated_on_hand": 12,
+      "price": 11.99,
+      "sales_velocity": 3.5,
+      "is_phantom_inventory": false,
+      "reason": "Title not identified in this photo; it may be unreadable or occluded.",
+      "action": "Check shelf before changing inventory",
+      "requires_review": true
+    },
+    {
+      "sku": "SKU-760443F332F2",
+      "title": "Chainsaw Man, Vol. 1",
+      "author": "Tatsuki Fujimoto",
+      "planogram_bay_id": "bay_f2",
+      "simulated_on_hand": 0,
+      "price": 11.99,
+      "sales_velocity": 2.9,
+      "is_phantom_inventory": false,
+      "reason": "Title not identified in this photo; it may be unreadable or occluded.",
+      "action": "Check shelf before changing inventory",
+      "requires_review": true
+    },
+    {
+      "sku": "SKU-824C4F86A80E",
+      "title": "Jujutsu Kaisen, Vol. 1",
+      "author": "Gege Akutami",
+      "planogram_bay_id": "bay_f2",
+      "simulated_on_hand": 0,
+      "price": 11.99,
+      "sales_velocity": 3.2,
+      "is_phantom_inventory": false,
+      "reason": "Title not identified in this photo; it may be unreadable or occluded.",
+      "action": "Check shelf before changing inventory",
+      "requires_review": true
+    }
+  ],
+  "action_tasks": [
+    {
+      "id": "bay_f2-move-SKU-38BEA5675677",
+      "type": "misplaced_item",
+      "severity": "warning",
+      "badge": "Check shelf assignment",
+      "title": "The Disciplined Trader",
+      "author": "Mark Douglas",
+      "sku": "SKU-38BEA5675677",
+      "headline": "Title identified here; the demo catalogue assigns it to Bay B1 · Business & Finance. Confirm the selected comparison shelf first.",
+      "suggested_action": "Review shelf assignment",
+      "shelf_item_id": "bay_f2-item-4",
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-review-24",
+      "type": "recognition_review",
+      "severity": "medium",
+      "badge": "Catalogue check",
+      "title": "Dragon Ball Super",
+      "author": "Akira Toriyama and Toyotarou",
+      "headline": "This title is not listed in the demo catalogue; this does not mean it was read incorrectly.",
+      "suggested_action": "Inspect photo and confirm title",
+      "shelf_item_id": "bay_f2-item-24",
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-review-25",
+      "type": "recognition_review",
+      "severity": "medium",
+      "badge": "Catalogue check",
+      "title": "Attack on Titan Omnibus",
+      "author": "Hajime Isayama",
+      "headline": "This title is not listed in the demo catalogue; this does not mean it was read incorrectly.",
+      "suggested_action": "Inspect photo and confirm title",
+      "shelf_item_id": "bay_f2-item-25",
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-unseen-SKU-54D87B99454F",
+      "type": "missing_item",
+      "severity": "medium",
+      "badge": "Presence unconfirmed",
+      "title": "Attack on Titan: Omnibus (Volumes 1-2-3)",
+      "author": "Hajime Isayama",
+      "sku": "SKU-54D87B99454F",
+      "headline": "Title not identified in the photo. Simulated on-hand: 0. This does not establish a stockout.",
+      "suggested_action": "Confirm shelf and backroom check",
+      "system_on_hand": 0,
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-unseen-SKU-D118D4877448",
+      "type": "missing_item",
+      "severity": "medium",
+      "badge": "Presence unconfirmed",
+      "title": "Dragon Ball Super (Vol. 23)",
+      "author": "Akira Toriyama / Toyotarou",
+      "sku": "SKU-D118D4877448",
+      "headline": "Title not identified in the photo. Simulated on-hand: 6. This does not establish a stockout.",
+      "suggested_action": "Confirm shelf and backroom check",
+      "system_on_hand": 6,
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-unseen-SKU-C9244ADEFAF8",
+      "type": "missing_item",
+      "severity": "medium",
+      "badge": "Presence unconfirmed",
+      "title": "जादू (The Magic - Hindi Edition)",
+      "author": "Rhonda Byrne",
+      "sku": "SKU-C9244ADEFAF8",
+      "headline": "Title not identified in the photo. Simulated on-hand: 7. This does not establish a stockout.",
+      "suggested_action": "Confirm shelf and backroom check",
+      "system_on_hand": 7,
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-unseen-SKU-91B9DCF0A9FE",
+      "type": "missing_item",
+      "severity": "medium",
+      "badge": "Presence unconfirmed",
+      "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+      "author": "Koyoharu Gotouge",
+      "sku": "SKU-91B9DCF0A9FE",
+      "headline": "Title not identified in the photo. Simulated on-hand: 12. This does not establish a stockout.",
+      "suggested_action": "Confirm shelf and backroom check",
+      "system_on_hand": 12,
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-unseen-SKU-760443F332F2",
+      "type": "missing_item",
+      "severity": "medium",
+      "badge": "Presence unconfirmed",
+      "title": "Chainsaw Man, Vol. 1",
+      "author": "Tatsuki Fujimoto",
+      "sku": "SKU-760443F332F2",
+      "headline": "Title not identified in the photo. Simulated on-hand: 0. This does not establish a stockout.",
+      "suggested_action": "Confirm shelf and backroom check",
+      "system_on_hand": 0,
+      "requires_review": true
+    },
+    {
+      "id": "bay_f2-unseen-SKU-824C4F86A80E",
+      "type": "missing_item",
+      "severity": "medium",
+      "badge": "Presence unconfirmed",
+      "title": "Jujutsu Kaisen, Vol. 1",
+      "author": "Gege Akutami",
+      "sku": "SKU-824C4F86A80E",
+      "headline": "Title not identified in the photo. Simulated on-hand: 0. This does not establish a stockout.",
+      "suggested_action": "Confirm shelf and backroom check",
+      "system_on_hand": 0,
+      "requires_review": true
+    }
+  ],
+  "metrics": {
+    "planogram_expected_items": 28,
+    "shelf_items_detected": 25,
+    "matched_count": 22,
+    "independent_verified_count": 0,
+    "catalogue_matched_count": 23,
+    "missing_count": 6,
+    "misplaced_count": 1,
+    "review_count": 2,
+    "location_review_count": 0,
+    "provisional_count": 0,
+    "planogram_compliance_pct": 78.6
+  }
+}
